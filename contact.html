@@ -15,6 +15,9 @@
 	<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+
+	<script type="text/javascript" src="validation.js"></script>
+	<link type="text/css" href="form.css" rel="stylesheet">
 </head>
 
 <body>
@@ -40,7 +43,7 @@
 
 			<div>
 				<!--<a href="index.html"><img src="images/nixb.png" width="100px" alt="nixbees" height="60px"></a>-->
-				<img src="images/logo.svg" width="220px" height="60" style="padding-left: 10px">
+				<a href="index.html"><img src="images/logo.svg" width="220px" height="60" style="padding-left: 10px"></a>
 			</div>
 		</div>
 
@@ -149,10 +152,10 @@
 				<div class="col-lg-8">
 					<div class="contact_main_content">
 
-						<div class="contact_subtitle">contact us</div>
+						<!--<div class="contact_subtitle">contact us</div> -->
 						
 						<!-- Contact Us Form -->
-						<div class="contact_form_container">
+						<!--<div class="contact_form_container">
 							<form id="reply_form" action="post">
 								<div>
 									<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Name" required="required" data-error="Name is required.">
@@ -175,15 +178,94 @@
 								</div>
 
 							</form>
-						</div>
-
+						</div> -->
+						<div class="zf-templateWidth">
+							<form action='https://forms.zohopublic.com/info1518/form/ContactForm/formperma/VpnRsaCocUhrbI09UwjxEsv6ZVW4HiyjjL23UTviY2Y/htmlRecords/submit' name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();' accept-charset='UTF-8' enctype='multipart/form-data' id='form'><input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+								<input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+								<input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+								<div class="zf-templateWrapper"><!---------template Header Starts Here---------->
+									<ul class="zf-tempHeadBdr">
+										<li class="zf-tempHeadContBdr">
+											<h2 class="zf-frmTitle">Contact Us</h2>
+											<p class="zf-frmDesc"></p>
+											<div class="zf-clearBoth"></div>
+										</li>
+									</ul><!---------template Header Ends Here---------->
+									<!---------template Container Starts Here---------->
+									<div class="zf-subContWrap zf-topAlign">
+										<ul>
+											<!---------Name Starts Here---------->
+											<li class="zf-tempFrmWrapper zf-name zf-namemedium">
+												<label class="zf-labelName">Full name
+													<em class="zf-important">*</em>
+												</label>
+												<div class="zf-tempContDiv">
+													<div class="row">
+														<div class="col-md-6">
+														<span class="zf-clarge">
+															<input type="text"  name="Name_First" invlovedinsalesiq=false fieldType=7 checktype="c1" class="form-control"/>
+																<label>First</label>
+														</span>
+														</div>
+														<div class="col-md-6">
+														<span class="zf-clarge">
+															<input type="text"  maxlength="65" invlovedinsalesiq=false fieldType=7 name="Name_Last" checktype="c1" class="form-control"/>
+																<label>Last</label>
+														</span>
+														</div>
+														<div class="zf-clearBoth"></div>
+														<p id="Name_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+													</div>
+												</div>
+												<div class="zf-clearBoth"></div>
+											</li><!---------Name Ends Here---------->
+											<!---------Email Starts Here---------->
+											<li class="zf-tempFrmWrapper zf-small">
+												<label class="zf-labelName">Email
+													<em class="zf-important">*</em>
+												</label>
+												<div class="zf-tempContDiv">
+													<span>
+														<input fieldType=9 invlovedinsalesiq=false type="text" maxlength="255" name="Email" checktype="c5" value=""/>
+													</span>
+													<p id="Email_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+												</div>
+												<div class="zf-clearBoth"></div>
+											</li><!---------Email Ends Here---------->
+											<!---------Multiple Line Starts Here---------->
+											<li class="zf-tempFrmWrapper zf-large">
+												<label class="zf-labelName">Leave us a few words
+													<em class="zf-important">*</em>
+												</label>
+												<div class="zf-tempContDiv">
+													<span>
+														<textarea name="MultiLine" checktype="c1" maxlength="65535"></textarea>
+													</span>
+													<p id="MultiLine_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+												</div>
+												<div class="zf-clearBoth"></div>
+											</li><!---------Multiple Line Ends Here---------->
+										</ul>
+									</div><!---------template Container Starts Here---------->
+									<ul>
+										<li class="zf-fmFooter">
+											<button class="zf-submitColor" >Submit</button>
+										</li>
+									</ul>
+								</div><!-- 'zf-templateWrapper' ends --></form></div><!-- 'zf-templateWidth' ends -->
+						<script type="text/javascript">
+                            var zf_DateRegex = new RegExp("^(([0][1-9])|([1-2][0-9])|([3][0-1]))[-](Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[-](?:(?:19|20)[0-9]{2})$");
+                            var zf_MandArray = [ "Name_First", "Name_Last", "Email", "MultiLine"];
+                            var zf_FieldArray = [ "Name_First", "Name_Last", "Email", "MultiLine"];
+                            var isSalesIQIntegrationEnabled = false;
+						</script>
 					</div>
 				</div>
-				
+				<!--=================== contact info and form end====================-->
 				<!-- Sidebar -->
 				<div class="col-lg-4">
 					<div class="contact_sidebar">
-						
+
 						<!-- Contact Info -->
 						<div class="sidebar_section">
 							<div class="sidebar_contact_info">
@@ -200,14 +282,42 @@
 				</div>
 
 			</div>
-
-			<!-- Google Map Container -->
-             <div class="container"><br><br><br></div>
+			<br>
 			<div class="row">
 				<div class="container">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.05668603333!2d77.12089461404075!3d13.346749990610538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDIwJzQ4LjMiTiA3N8KwMDcnMjMuMSJF!5e0!3m2!1sen!2sin!4v1542995773735" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
+				</div>
+				
+				<!-- Sidebar -->
+				<!--<div class="col-lg-4">
+					<div class="contact_sidebar">
+						
+						<!-- Contact Info -->
+					<!--	<div class="sidebar_section">
+							<div class="sidebar_contact_info">
+								<div class="sidebar_title">contact info</div>
+								<ul>
+									<li>C/o Sri ranga krupa 1st main 5th<br/>cross 1st link road adarshanagar<br/> Tumkur 572111</li>
+									<li>hello@nixbees.com</li>
+									<li>+91-9591257205</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div> -->
+
+			</div>
+
+			<!-- Google Map Container -->
+             <!--<div class="container"><br><br><br></div>
+			<div class="row">
+				<div class="container">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.05668603333!2d77.12089461404075!3d13.346749990610538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDIwJzQ4LjMiTiA3N8KwMDcnMjMuMSJF!5e0!3m2!1sen!2sin!4v1542995773735" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div> -->
 
 		</div>
 	</div>

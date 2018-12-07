@@ -452,6 +452,9 @@ section
 	 border-radius: 5px;
 
  }
+ .upload p{
+	 color: #2E2E2E;
+ }
 .upload:hover{
 	background-color: rgba(239, 147, 0, 0.11);
 	-webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -1220,12 +1223,18 @@ section
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.nbq1 p{
+	color: #2E2E2E;
+}
 .beeq{
 	text-align: justify;
 	text-justify: inter-word;
 	padding-right: 50px;
 	padding-left: 50px;
 	margin-bottom: 60px;
+}
+.beeq p{
+	color: #2E2E2E;
 }
 .gallery1{
 	width: 100%;

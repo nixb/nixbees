@@ -986,6 +986,7 @@ section
 .contact_sidebar
 {
 	width: 100%;
+	float: right;
 }
 .sidebar_section
 {
@@ -1033,10 +1034,10 @@ section
 .sidebar_contact_info ul li
 {
 	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 13px;
-	font-weight: 600;
-	color: #b8b8c1;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-size: 15px;
+	/*font-weight: 600; */
+	color: #2E2E2E;
 	line-height: 30px;
 	padding-left: 28px;
 	margin-bottom: 13px;

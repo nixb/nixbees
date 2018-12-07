@@ -1,6 +1,6 @@
 /* $Id: $ */
 @charset "UTF-8";
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -13,7 +13,7 @@ body {
 	color: #444444;
 
 	margin: 0 auto;
-}
+}*/
 
 input, input[type="text"], input[type="search"], isindex, textarea, button {
 	outline:none;
@@ -24,7 +24,7 @@ input, input[type="text"], input[type="search"], isindex, textarea, button {
     box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-img, a {
+/*img, a {
 	border:0px;
 	outline:none;
 	color:#3a6cae;
@@ -32,7 +32,7 @@ img, a {
 }
 img, a:hover {
 	text-decoration:underline;
-}
+} */
 .zf-flLeft {
 	float:left;
 }
@@ -66,9 +66,9 @@ ol, ul {
 	font-weight:bold;
 	text-decoration:none;
 }
-.zf-italicText {
+/*.zf-italicText {
 	font-style:italic;
-}
+} */
 .zf-heading a {
 	text-decoration:underline;
 }
@@ -95,7 +95,7 @@ ol, ul {
 }
 
 .zf-templateWidth { 
-	width:80%;
+	width:65%;
 	}
 
 .zf-templateWrapper {
@@ -152,7 +152,7 @@ ol, ul {
 /**********instruction Message***********/
 .zf-instruction {
 	color:#939393;
-	font-style:italic;
+	/*font-style:italic; */
 	margin-top:3px;
 	font-size:12px;
 	overflow:visible !important;
@@ -173,7 +173,7 @@ ol, ul {
 }
 
 .zf-tempHeadContBdr {
-	background: #494949;
+	background: #ff4200;
 	border-bottom:1px solid #EAEAEA;
 	margin: 0;
 	padding:10px 25px;
@@ -186,6 +186,7 @@ ol, ul {
 	margin: 0;
 	padding: 0;
 	font-size:2em;
+	font-family: 'Montserrat', sans-serif;
 }
 .zf-tempHeadContBdr .zf-frmDesc {
 	color: #DDDDDD;
@@ -217,7 +218,7 @@ ol, ul {
 .zf-tempFrmWrapper .zf-labelName {
 	font-weight:bold;
 	font-size:13px;
-	color:#444;
+	color:#2E2E2E;
 }
 
 .zf-form-sBox{ 
@@ -341,9 +342,13 @@ ol, ul {
 	
 .zf-signContainer{ 
 	margin:0; 
-	padding:0; 
-	width:100%;
+	padding-top:0px;
+	width:50%;
+	float: left;
 	}
+.zf-signContainer label{
+	padding-left: 5px;
+}
 .zf-signContainer canvas{ 
 	cursor:crosshair;
 	border:1px solid #ccc; 
@@ -358,8 +363,8 @@ ol, ul {
 	border-bottom:1px solid #D7D7D7;
 	font-size:22px; 
 	color:#000; 
-	font-weight:500; 
-	font-family:'Open Sans',"Lucida Grande",Arial,Helvetica,sans-serif; 
+	font-weight:500;
+	font-family: 'Montserrat', sans-serif;
 	padding-bottom:10px;
 	}
 .zf-section p{ 
@@ -585,9 +590,18 @@ ol, ul {
 	width:23%;
 	}
 .zf-namemedium .zf-tempContDiv span{
-	
+
+    width: 100%;
 
 	}
+.zf-signContainer_medea{
+	width: 5%;
+	float: left;
+	padding-top: 15px;
+}
+.form-control{
+    width: 100%;
+}
 .zf-namelarge	 .zf-tempContDiv span{
 	width:48%;
 	}
