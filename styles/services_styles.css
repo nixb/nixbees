@@ -935,7 +935,14 @@ section
 	margin-left: auto;
 	margin-right: auto;
 }
-
+/* Service_pulli */
+.services_pulli{
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #2E2E2E;
+}
+/* end of service_pulli */
 /*********************************
 9. Cards
 *********************************/
@@ -1097,7 +1104,7 @@ section
 
 .footer
 {
-	background: #111111;
+	background: #2E2E2E;
 }
 .footer_content
 {
@@ -1185,7 +1192,9 @@ section
 
 /* The Close Button */
 #ourclose {
+	margin-top: -10px;
 	color: white;
+
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
@@ -1229,8 +1238,8 @@ section
 .beeq{
 	text-align: justify;
 	text-justify: inter-word;
-	padding-right: 50px;
-	padding-left: 50px;
+	/*padding-right: 50px;
+	padding-left: 50px;*/
 	margin-bottom: 60px;
 }
 .beeq p{

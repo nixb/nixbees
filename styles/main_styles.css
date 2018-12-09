@@ -1205,7 +1205,7 @@ section
     .serv{
         padding-right: 0px;
         padding-left: 0px;
-        background-color: #EEEEEE;
+        background-color: #2E2E2E;
     }
     .test{
        position: relative;
@@ -1252,13 +1252,13 @@ section
         padding: 20px 0px 10px;
         border: #ff5c03 1px solid;
         border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgb(255, 255, 255);
         min-width: 190px;
 
         
     }
     .serv_rel:hover{
-        background-color: rgba(239, 147, 0, 0.11);
+        background-color: rgba(239, 147, 0, 0.4);
         -webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 1px 1px 1px 1px rgb(255, 75, 0);  /* Firefox 3.5 - 3.6 */
   box-shadow: 1px 1px 1px 1px rgb(255, 75, 0);
@@ -1889,7 +1889,7 @@ font-family: Helvetica, sans-serif;
 } */
 .xylo{
 	width: 100%;
-	background-color: #EEEEEE;
+	background-color: #2E2E2E;
 	padding-bottom: 30px;
 
 }
@@ -1907,7 +1907,7 @@ font-family: Helvetica, sans-serif;
 	position: absolute;
 	width: 6px;
 	height: 1420px;
-	background-color: #2E2E2E;
+	background-color: #ff530d;
 	top: 1%;
 	bottom: 0;
 	left: 50%;
@@ -2080,7 +2080,7 @@ font-family: Helvetica, sans-serif;
 {
 
 	width: 100%;
-	background: #111111;
+	background: #2E2E2E;
 }
 .footer_sp{
 	padding-left: 10px;
