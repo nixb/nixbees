@@ -1906,7 +1906,7 @@ font-family: Helvetica, sans-serif;
 	content: '';
 	position: absolute;
 	width: 6px;
-	height: 1420px;
+	height: 1810px;
 	background-color: #ff530d;
 	top: 1%;
 	bottom: 0;
@@ -1995,7 +1995,7 @@ font-family: Helvetica, sans-serif;
 	/* Place the timelime to the left */
 	.timeline::after {
 		left: 31px;
-		height: 1430px;
+		height: 1820px;
 	}
 
 	/* Full-width containers */
