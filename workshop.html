@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>nixbees</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/nixb.png" type="image/png">
+    <title>nixbees</title>
     <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.css">
     <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -13,58 +14,14 @@
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
     <link rel="stylesheet" type="text/css" href="styles/services_styles.css">
     <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="styles/workshop.css">
 
     <script type="text/javascript" src="accordinals/jquery.mim.js"></script>
     <script type="text/javascript" src="workshop.js"></script>
 
     <script src="accordinals/jquery-ui/jquery-ui.js"></script>
 </head>
-<style>
-    .workshop{
-        background-color: #2D2D2D;
-        padding: 20px;
-        border: 1px solid white;
-        color: #FF5C03;
-        text-align: center;
-        cursor: pointer;
 
-    }
-
-   /* .workshop #em:hover{
-        color: white;
-    } */
-   /* .workshop:active{
-        background: #FF5C03;
-
-        border: 1px solid rgb(45, 45, 45);
-    } */
-    .workshop p:hover{
-       /* background: #FF5C03; */
-        color: white;
-      /*  border: 1px solid rgb(45, 45, 45); */
-    }
-    .workshop:hover{
-        background-color: #FF5C03;
-        border: 1px solid rgb(45, 45, 45);
-    }
-    .workshop p{
-        color: #FF5C03;
-    }
-    .page{
-        text-align: justify;
-        color: #2E2E2E;
-    }
-    .knowmore1{
-        background-color: #ff530d;
-        color: white;
-    }
-    #embedded{
-        background-color: #FF5C03;
-    }
-    #em{
-        color: white;
-    }
-</style>
 <body>
 
 <!-- Header -->
@@ -97,6 +54,8 @@
                 <li><a href="index.html"><span>home</span></a></li>
                 <li><a href="3dprinter.html"><span>3D Printer</span></a></li>
                 <li class="active"><a href="workshop.html"><span>Workshop</span></a></li>
+                <li><a href="internship.html"><span>Internship</span></a></li>
+                <li><a href="icap.html"><span>ICAP</span></a></li>
                 <li><a href="career.html"><span>Career</span></a></li>
                 <li><a href="contact.html"><span>contact</span></a></li>
             </ul>
@@ -108,6 +67,8 @@
                     <li><a href="index.html"><span><span>H</span>Home</span></a></li>
                     <li><a href="3dprinter.html"><span><span>3</span>3D Printer</span></a></li>
                     <li><a href="workshop.html"><span><span>W</span>Workshop</span></a></li>
+                    <li><a href="internship.html"><span><span>I</span>Internship</span></a></li>
+                    <li><a href="icap.html"><span><span>I</span>ICAP</span></a></li>
                     <li><a href="career.html"><span><span>C</span>Career</span></a></li>
                     <li><a href="contact.html"><span><span>C</span>Contact</span></a></li>
                 </ul>
@@ -166,9 +127,9 @@
 </div>
 
 <div class="super_container">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="col-sm-12">
                     <div class="row">
                         <div class="col-sm-12 workshop" onclick="workshop()" id="embedded" href="#workshop">
@@ -225,21 +186,35 @@
                 </div>
 
             </div>
-            <div class="col-lg-8" id="workshop">
+            <div class="col-lg-9" id="workshop">
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Embedded & Robotics </h2>
-                        <p class="page">Nixbees  Technologies presents Embedded System & Robotics with Embedded ‘C’ using Arduino AVR microcontrollers.  AVR microcontrollers are useful for many applications. A microcontroller is essentially a tiny computer and can be programmed to do many things. Input and output are handled through the numerous pins on the microcontroller. It is possible to hook up sensors, switches, lights, motors, and many other items to the pins, which allow it a great range of uses. Thus, AVR microcontrollers are often used for prototyping and robotics projects.</p>
-                        <a href="pdf/embedded_system_s&_Robotics.pdf"><button class="btn knowmore1">Know More</button></a>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Embedded & Robotics </h2>
+                            <p class="page">Nixbees  Technologies presents Embedded System & Robotics with Embedded ‘C’ using Arduino AVR microcontrollers.  AVR microcontrollers are useful for many applications. A microcontroller is essentially a tiny computer and can be programmed to do many things. Input and output are handled through the numerous pins on the microcontroller. It is possible to hook up sensors, switches, lights, motors, and many other items to the pins, which allow it a great range of uses. Thus, AVR microcontrollers are often used for prototyping and robotics projects.</p>
+                            <a href="pdf/embedded_system_s&_Robotics.pdf"><button class="btn knowmore1">Know More</button></a>
+                            <p>Please click on the link below & fill the details, we will get in touch with you <a href="http://bit.do/nixbees" target="_blank">http://bit.do/nixbees</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pre-scrollable content_page">
+                                <p class="page">A graduate degree program is demanding. In addition to your classes, you may even be working a full-time job. So why should you forfeit some of your precious time to attend seminars and workshops? Consider the following benefits from taking the time out of your schedule to attend seminars and workshops offered by nixbees.</p>
+                                <h3>Program Benefits:</h3>
+                                <p class="page1">• The program aims to deepen the academia-industry relationship and create a strong foundation for the future needs of growing IT and Electrical Industry.<br>
+                                    • The main benefit to the student is industry-readiness and a better chance of employability in an IT and Electrical Industry.<br>
+                                    • This program is intended to bridge the skills gap between Industry & Academia.<br>
+                                    • Enables students, faculty members and research scholars to take up industry –relevant skill training for research, innovation and skill building.<br>
+                                    • Whereas workshops link you to new technology which helps you generate new ideas and it becomes your passion in a few days when you get fully involved in it.<br>
+                                    • Participants can share their insights and thoughts on how to resolve the problem, which can offer a fresh perspective when dealing with the problem.<br>
+                                    • Allows student to look for jobs and placements and keep track on the changing trend in the job market.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
             </div>
         </div>
     </div>
 
 </div>
+
 
 <br><br><br><br><br>
 

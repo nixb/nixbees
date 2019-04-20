@@ -637,10 +637,10 @@ section
 .fs_menu_container
 {
 	position: fixed;
-	top: -100vh;
+	top: -600vh;
 	left: 0;
 	width: 100vw;
-	height: 100vh;
+	height: 200vh;
 	background: #FFFFFF;
 	z-index: 19;
 	-webkit-transition: all 1s 0s cubic-bezier(1,0,0,1);
@@ -666,7 +666,7 @@ section
 }
 .fs_menu_container.active
 {
-	top: 0;
+	top: -130px;
 }
 .fs_menu_list
 {
@@ -679,8 +679,8 @@ section
 .fs_menu_list li a
 {
 	display: inline-block;
-	font-size: 62px;
-	font-weight: 700;
+	font-size: 22px;
+	font-weight: 300;
 	color: #171717;
 	line-height: 1.4;
 	-webkit-transform: translateY(-100%);
@@ -727,7 +727,7 @@ section
 	bottom: 4px;
 	left: 0;
 	width: 0%;
-	height: 3px;
+	height: 1px;
 	background: #171717;
 	content: '';
 	-webkit-transition: all 600ms cubic-bezier(.19,1,.22,1);

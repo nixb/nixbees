@@ -290,9 +290,9 @@ section
 /*********************************
 3. Header
 *********************************/
-
-
-
+/*********************************
+3. Header
+*********************************/
 .header
 {
 
@@ -305,9 +305,9 @@ section
 	z-index: 20;
 	background: rgb(45, 45, 45);
 
-	/* -webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-	 /* -moz-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
-	/* box-shadow: 0px 3px 2px 0px rgba(132, 140, 136, 0.73); */
+	/*-webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	/*: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
+	/*box-shadow: 0px 3px 2px 0px rgba(132, 140, 136, 0.73);*/
 
 }
 
@@ -319,7 +319,6 @@ section
 	min-width: 220px;
 }
 
-
 /*********************************
 3.1 Logo
 *********************************/
@@ -330,6 +329,7 @@ section
 }
 .logo
 {
+	margin-left: 7px;
 }
 .logo a
 {
@@ -344,12 +344,12 @@ section
 	position: absolute;
 	top: 0;
 	left: -5px;
-	color: #ff4200;
+	color: #ff5c03;
 	z-index: -1;
 }
 .logo span:last-of-type
 {
-	color: #ff4200;
+	color: #ff5c03;
 }
 
 /*********************************
@@ -370,7 +370,7 @@ section
 .nav_items li
 {
 	display: inline-block;
-    padding-left: 10px;
+	padding-left: 10px;
 	height: 100%;
 }
 .nav_items li a
@@ -395,8 +395,8 @@ section
 .nav_items li.active
 {
 	/*background: #ff4200;*/
-	border-bottom: 3px solid #ff4200;
-	color: #ff0000;
+	border-bottom: 3px solid #ff5c03;
+	color: #ff5c03;
 }
 .nav_items li.active a
 {
@@ -405,13 +405,68 @@ section
 .nav_items li:hover
 {
 	/* background: #ff4200; */
-	border-bottom: 3px solid #ff4200;
-	color: #ff4200;
+	border-bottom: 3px solid #ff5c03;
+	color: #ff5c03;
 }
 .nav_items li:hover a
 {
-	color: #ff4200;
+	color: #ff5c03;
 }
+/**** 3dprinter process ***/
+
+.upload{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: #ff5c03 1px solid;
+	padding-top: 30px;
+	text-align: justify;
+	text-justify: inter-word;
+	border-radius: 5px;
+
+}
+.upload p{
+	color: #2E2E2E;
+}
+.upload:hover{
+	background-color: rgba(239, 147, 0, 0.11);
+	-webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow: 1px 1px 1px 1px rgb(255, 75, 0);  /* Firefox 3.5 - 3.6 */
+	box-shadow: 1px 1px 1px 1px rgb(255, 75, 0);
+}
+.cube{
+	position: relative;
+	top: 40%;
+	left: 35%;
+}
+.Knowmore{
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 40px 0px -24px rgba(255, 66, 0, 0.5);
+	background-color:#ff530d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff1e0b;
+}
+.knowmore:hover{
+	background-color:#eb675e;
+	box-shadow:inset 0px 80px 0px -24px #ffa07f;
+}
+.knowmore:active{
+	position:relative;
+	top:1px;
+}
+/*** end of 3dprinter process ***/
 /*********************************
 3.3 Hamburger Menu
 *********************************/
@@ -513,10 +568,10 @@ section
 .fs_menu_container
 {
 	position: fixed;
-	top: -100vh;
+	top: -600vh;
 	left: 0;
 	width: 100vw;
-	height: 100vh;
+	height: 200vh;
 	background: #FFFFFF;
 	z-index: 19;
 	-webkit-transition: all 1s 0s cubic-bezier(1,0,0,1);
@@ -542,7 +597,7 @@ section
 }
 .fs_menu_container.active
 {
-	top: 0;
+	top: -130px;
 }
 .fs_menu_list
 {
@@ -555,8 +610,8 @@ section
 .fs_menu_list li a
 {
 	display: inline-block;
-	font-size: 62px;
-	font-weight: 700;
+	font-size: 22px;
+	font-weight: 300;
 	color: #171717;
 	line-height: 1.4;
 	-webkit-transform: translateY(-100%);
@@ -603,8 +658,8 @@ section
 	bottom: 4px;
 	left: 0;
 	width: 0%;
-	height: 3px;
-	background: #b4b4b4;
+	height: 1px;
+	background: #171717;
 	content: '';
 	-webkit-transition: all 600ms cubic-bezier(.19,1,.22,1);
 	-moz-transition: all 600ms cubic-bezier(.19,1,.22,1);
@@ -644,91 +699,6 @@ section
 .fs_social li:hover i
 {
 	color: rgba(255,66,0,1);
-}
-
-/*********************************
-4. Home Social
-*********************************/
-
-.home_social_container
-{
-	position: absolute;
-	top: 110px;
-	right: 0px;
-	width: auto;
-	height: 74px;
-	background: #ff4200;
-	z-index: 11;
-	padding-right: 38px;
-	padding-left: 45px;
-}
-.home_social li
-{
-	display: inline-block;
-	margin-left: 10px;
-}
-.home_social li a
-{
-	width: 100%;
-	height: 100%;
-	padding: 10px;
-}
-.home_social li i
-{
-	font-size: 13px;
-	color: rgba(255,255,255,0.6);
-}
-.home_social li:hover i
-{
-	color: rgba(255,255,255,1);
-}
-
-/*********************************
-5. Section Title
-*********************************/
-
-.section_title h2
-{
-	display: inline-block;
-	position: relative;
-	font-weight: 600;
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	line-height: 1.35;
-	margin-bottom: 116px;
-}
-.section_title h2 span
-{
-	display: block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50px);
-	-moz-transform: translate(-50%, -50px);
-	-ms-transform: translate(-50%, -50px);
-	-o-transform: translate(-50%, -50px);
-	transform: translate(-50%, -50px);
-	font-size: 72px;
-	font-weight: 900;
-	color: #ff0000;
-	opacity: 0.32;
-}
-.section_title h2::before
-{
-	display: block;
-	position: absolute;
-	bottom: 61px;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(calc(-50% - 4px));
-	width: 2px;
-	height: 45px;
-	content: '';
-	background: #FFFFFF;
 }
 
 /*********************************

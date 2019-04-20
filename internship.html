@@ -13,26 +13,13 @@
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
     <link rel="stylesheet" type="text/css" href="styles/services_styles.css">
     <link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
-
-
+    <link rel="stylesheet" type="text/css" href="styles/internship.css">
 
     <script type="text/javascript" src="accordinals/jquery.mim.js"></script>
 
     <script src="accordinals/jquery-ui/jquery-ui.js"></script>
 
     <link href="accordinals/jquery-ui/jquery-ui.css" rel="stylesheet">
-    <style>
-        .career{
-            padding: 50px;
-            border: 1px solid #ff5f6d;
-            text-align: justify;
-            text-justify: inter-word;
-            border-radius: 5px;
-        }
-        .career p{
-            color: #2E2E2E;
-        }
-    </style>
 </head>
 
 <body>
@@ -40,7 +27,11 @@
 <div class="super_container">
 
     <!-- Header -->
-    <header  class="header d-flex flex-row justify-content-end align-items-center">
+
+
+    <header  class="header d-flex flex-row justify-content-end align-items-center" id="nixbee_header">
+
+
 
         <!-- Logo -->
         <div class="logo_container mr-auto">
@@ -63,26 +54,26 @@
                 <li><a href="index.html"><span>home</span></a></li>
                 <li><a href="3dprinter.html"><span>3D Printer</span></a></li>
                 <li><a href="workshop.html"><span>Workshop</span></a></li>
-                <li><a href="internship.html"><span>Internship</span></a></li>
+                <li class="active"><a href="internship.html"><span>Internship</span></a></li>
                 <li><a href="icap.html"><span>ICAP</span></a></li>
-                <li class="active"><a href="career.html"><span>Career</span></a></li>
+                <li><a href="career.html"><span>Career</span></a></li>
                 <li><a href="contact.html"><span>contact</span></a></li>
             </ul>
         </nav>
         <div class="fs_menu_container">
-            <div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
+            <!--<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>-->
             <nav class="fs_menu_nav">
                 <ul class="fs_menu_list">
                     <li><a href="index.html"><span><span>H</span>Home</span></a></li>
                     <li><a href="3dprinter.html"><span><span>3</span>3D Printer</span></a></li>
                     <li><a href="workshop.html"><span><span>W</span>Workshop</span></a></li>
-                    <li><a href="career.html"><span><span>I</span>Internship</span></a></li>
-                    <li><a href="career.html"><span><span>I</span>ICAP</span></a></li>
+                    <li><a href="internship.html"><span><span>I</span>Internship</span></a></li>
+                    <li><a href="icap.html"><span><span>I</span>ICAP</span></a></li>
                     <li><a href="career.html"><span><span>C</span>Career</span></a></li>
                     <li><a href="contact.html"><span><span>C</span>Contact</span></a></li>
                 </ul>
             </nav>
-            <div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
+            <!--<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
                 <ul class="fs_social">
                     <li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
                     <li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
@@ -91,7 +82,7 @@
                     <li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
                     <li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
                 </ul>
-            </div>
+            </div>-->
         </div>
         <!-- Hamburger -->
         <div class="hamburger_container">
@@ -132,52 +123,53 @@
 
     <!-- Page Top -->
 
-    <div class="home prlx_parent">
-
-        <!-- Parallax Background -->
-        <!-- <div class="page_top_background parallax-window" data-parallax="scroll" data-speed="0.7" data-image-src="images/services_parallax.jpg"></div> -->
-        <!--<div class="home_background prlx" style="background-color: rgb(45, 45, 45);"></div>-->
-       <!-- <div class="services_page_shapes" style="background-image:url(images/services_page_shapes.png);"></div> -->
-
+    <!--<div class="home prlx_parent">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="home_content text-center">
-                        <h1>Join Us</h1>
-                        <span>We’re looking for people who work hard smartly.</span>
+                        <h1>Internship</h1>
+                        <span>You need experience to get experience</span>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-sm-12 home_content_man align-content-sm-center"><img src="images/Join-Us.jpg" width="100%" height="300px" style="margin-top: 15%;" class="home_content_man_img_chil"></div>
+                        <div class="col-sm-12 home_content_man align-content-sm-center"><img src="images/internship.png" width="80%" height="300px" style="margin-top: 20%;" class="home_content_man_img"></div>
                     </div>
                 </div>
             </div>
         </div>
 
-    </div>
-
+    </div>-->
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 career">
-                <h2 style="text-align: center;">Career</h2>
-                <p>We’re looking for fearless people. People who believe that if you aren’t taking risk, it isn’t worth it. People who believe in human potential. Because we’re creating a new way of working. a new way of understanding. And we ‘redoing it together. So if you’re ready for a challenge, we’re ready for you.</p>
+        <div class="internPage">
+            <div class="col-12 intern_heading" style="margin-left: 380px;"><br><h2>Internship</h2></div>
+            <div class="row">
+                <div class="col-md-4 text-center" style="margin-top: 30px;">
+                    <blockquote><p class="quotation">
+                        You need experience to get experience</p>
+
+                    </blockquote>
+                    <img src="images/internship123.png" width="100%">
+                </div>
+                <div class="col-md-8" style="padding: 30px;">
+                    <h2 class="text-center intern_heading1">Internship</h2>
+                    <p style="color: black; text-align: justify;">College students need to balance work, friends, family, and assignments. It can be easy to overlook the critical importance of getting great internship experience. However, in today’s competitive economy, it is crucial that students make an internship a top priority.</p>
+                    <p style="color: black; text-align: justify;">If you have a relevant internship displayed on your resume, it will give you a competitive advantage over all the candidates applying for the same position. Employers understand that graduates that do not have any practical experience may lack the skills required to excel on the first day of their employment. Employers value internship experience because they provide students with the skills and experience that they cannot acquire in a school setting.</p>
+                    <p>Please click on the link below & fill the details, we will get in touch with you<br><a href="http://bit.do/nixinternship ">http://bit.do/nixinternship </a></p>
+
+                </div>
+
             </div>
-
         </div>
-
-    </div>
-    <!-- Home Social -->
-    <br><br><br>
-
-
+    </div><br>
     <!-- models --->
     <div class="container">
 
         <div class="row">
             <div class="col-lg-6 offset-lg-3 text-center">
 
-                <h2>Career Option<span></span></h2>
+                <h2>Program Benefits<span></span></h2>
             </div>
         </div>
 
@@ -188,34 +180,39 @@
 
                 <div id="accordian">
 
-                    <h3>Software Developer</h3>
+                    <h3>Gain valuable work experience</h3>
 
                     <div>
-                        <p style="color: #2E2E2E;">&#8226; Bachelor of Computer Science, Computer Engineering, or related field <br>&#8226; 1+ years of software development experience (Core: Python)<br>&#8226; Should have deep knowledge of Agile development process & should be able to play the role of a Scrum Master / team lead<br>&#8226; Good to Have: Tools experience of Jira, Git<br>&#8226; Good to Have: SQL Queries working knowledge<br>&#8226; Possess strong computer science fundamentals: data structures, algorithms, programming languages, distributed systems, and information retrieval<br>&#8226; Ability to prioritize and multi-task in order to meet deadlines <br><br>Employment Type&#x3a; Permanent Job, Full Time<br>Key skills&#x3a; Python, Python Developer, python programming, Django</p>
+                        <p style="color: #2E2E2E;">The hands-on work experience interns receive is invaluable and cannot be obtained in a classroom setting, making this one of the most important benefits of internships.</p>
                     </div>
 
-                    <h3>Embedded software engineer </h3>
+                    <h3>Explore a career path </h3>
 
                     <div>
-                        <p style="color: #2E2E2E;">&#8226; 0 to 1 years of experience in Embedded C<br>&#8226; Hands on development experience on UART, I2C, SPI programming in 8051, AVR, ESP8266 SOC, Arm cortex family controller<br>&#8226; Hands on development experience in python on Linux based Board Raspberry Pi, Beagle Bone<br>&#8226; Knowledge of Networking topology<br>&#8226; Communication protocols like MQTT, HTTP, Socket programming TCPIP, UDP<br><br>Employment Type&#x3a; Permanent Job, Full Time<br>Keys kills&#x3a; microcontroller, microprocessor, raspberry pi ,  arduino, Nodemcu , Embedded C   </p>
+                        <p style="color: #2E2E2E;">Exploring is an important part of the college experience, and internships are a great way for students to acquaint themselves with the field they are interested in.</p>
                     </div>
 
-                    <h3>3D Modeller(Design Engineer) </h3>
+                    <h3>Give yourself an edge in the job market</h3>
 
                     <div>
-                        <p style="color: #2E2E2E;">&#8226; must be a Graduate / Diploma holder<br>&#8226; Special course for AutoCAD/ Unigraphics / Solid works / Pro-e. Technical / Professional<br>&#8226; Should have knowledge of Unigraphics / solid works, / AutoCAD / Pro-e<br>&#8226; Should be able to work on product design for plastic products in 2D or 3D & modification.<br>&#8226; Should have worked on such field at least 1 years or more<br>&#8226; Should be comfortable with Unigraphics / AutoCAD / Pro-e / Solid works.<br><br>Employment Type&#x3a; Permanent Job, Full Time<br>Key skills&#x3a; product design, 2d, 3d plastic, plastics products, mould design, 3d modeling, 2d modeling, AutoCAD,  Unigraphics, CAD, CAM</p>
+                        <p style="color: #2E2E2E;">One of the most important internship benefits is that college graduates who already have some work experience in the form of an internship stand out to potential employers.</p>
                     </div>
 
-                    <h3>Holographic 3D Designer </h3>
+                    <h3>Develop and refine skills</h3>
 
                     <div>
-                        <p style="color: #2E2E2E;">&#8226; Excellent knowledge of Autodesk tools, in particular 3D Studio Max.<br>&#8226; Good all-round knowledge of modelling, rigging, layout, animation, colouring, texture predominantly for non-organic designs.<br>&#8226; Excellent rendering, lighting and shading skills.<br>&#8226; Good knowledge of programming and scripting e.g. MaxScript or Python.<br>&#8226; Working knowledge of other 3D design tools e.g. Maya.<br>&#8226; Familiarity with popular 3D file formats e.g. OBJ, point cloud data.<br>&#8226; Video animation <br><br>Employment Type&#x3a; Permanent Job, Full Time<br>Key skills&#x3a; product design, 2d, 3d, MAYA, CAD, CAM </p>
+                        <p style="color: #2E2E2E;">You can learn a lot about your strengths and weaknesses during an internship.</p>
                     </div>
 
-                    <h3>Machine Operator </h3>
+                    <h3>Network with professionals in the field</h3>
 
                     <div>
-                        <p style="color: #2E2E2E;">&#8226; must be a Graduate / Diploma holder<br>&#8226; Good all-round knowledge of modelling, rigging, layout, animation, colouring, texture predominantly for non-organic designs.<br>&#8226; Excellent rendering, lighting and shading skills.Good knowledge of programming and scripting e.g. MaxScript or Python.<br>&#8226; Working knowledge of other 3D design tools e.g. Maya.<br>&#8226; Familiarity with popular 3D file formats e.g. OBJ, point cloud data.<br>&#8226; Video animation<br><br>Employment Type&#x3a; Permanent Job, Full Time<br>Key skills&#x3a; product design, 2d, 3d, MAYA, CAD, CAM </p>
+                        <p style="color: #2E2E2E;">In the working world, it’s all about who you know. As an intern, you will be surrounded by professionals in the industry.</p>
+                    </div>
+                    <h3>Gain confidence</h3>
+
+                    <div>
+                        <p style="color: #2E2E2E;">Internships allow you to test out specific techniques learned in the classroom before entering the working world.</p>
                     </div>
 
 
@@ -237,48 +234,7 @@
 
 
     </div>
-    <br><br><br><br>
-
-
-    <!-- end of models --->
-
-    <!-- Services -->
-
-
-
-
-
-
-
-    <!-- Pic Boxes -->
-
-
-
-    <!-- Contact -->
-
-   <!-- <div class="contact prlx_parent">
-        <!-- <div class="contact_background" style="background-image: url(images/contact_background.jpg);"></div> -->
-     <!--s   <div class="contact_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
-        <div class="contact_shapes"><img src="images/contact_shape.png" alt=""></div>
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center">
-                    <h2 style= "color: white;">let's work together<span></span></h2>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1 text-center contact_text">
-                    <p>Nixbees is here to provide you with more informative, answer any questions you may have and create an effective solution for your instructional needs.</p>
-                    <div class="button contact_button">
-                        <a href="contact.html" class="d-flex flex-row align-items-center justify-content-center">contact<img src="images/arrow_right.svg" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
+<br><br><br>
     <!-- Footer -->
 
     <footer class="footer">
@@ -306,7 +262,6 @@
 
 </div>
 
-
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
@@ -315,10 +270,11 @@
 <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
 <script src="plugins/greensock/animation.gsap.min.js"></script>
 <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/parallax.js-1.5.0/parallax.min.js"></script>
 <script src="plugins/progressbar/progressbar.min.js"></script>
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/easing/easing.js"></script>
-<script src="js/custom.js"></script>
+<script src="js/services_custom.js"></script>
 </body>
 
 </html>

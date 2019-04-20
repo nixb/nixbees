@@ -240,7 +240,7 @@
 	}
 	.fs_menu_list li a
 	{
-		font-size: 48px;
+		font-size: 38px;
 	}
 	.fs_menu_container
 	{
@@ -300,7 +300,7 @@
 	}
 	.fs_menu_list li a
 	{
-		font-size: 24px;
+		font-size: 14px;
 	}
 	.fs_menu_list li a > span::after
 	{
