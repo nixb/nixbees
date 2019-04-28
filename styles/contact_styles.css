@@ -722,6 +722,8 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	opacity: 0.6;
+	filter: alpha(opacity=50);
 }
 .services_page_shapes
 {
@@ -737,7 +739,8 @@ section
 }
 .home_content
 {
-	margin-top: 100px;
+	margin-top: 180px;
+	margin-left: 180px;
 }
 .home_content h1
 {

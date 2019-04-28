@@ -5,7 +5,7 @@ function workshop() {
         "                        <div class=\"col-md-6\">\n" +
         "                            <h2>Embedded & Robotics </h2>\n" +
         "                            <p class=\"page\">Nixbees  Technologies presents Embedded System & Robotics with Embedded ‘C’ using Arduino AVR microcontrollers.  AVR microcontrollers are useful for many applications. A microcontroller is essentially a tiny computer and can be programmed to do many things. Input and output are handled through the numerous pins on the microcontroller. It is possible to hook up sensors, switches, lights, motors, and many other items to the pins, which allow it a great range of uses. Thus, AVR microcontrollers are often used for prototyping and robotics projects.</p>\n" +
-        "                            <a href=\"pdf/embedded_system_s&_Robotics.pdf\"><button class=\"btn knowmore1\">Know More</button></a>\n" +
+        "                            <a href=\"pdf/embedded_system_s&_Robotics.pdf\" target=\"_blank\"><button class=\"btn knowmore1\">Know More</button></a>\n" +
         "                            <p>Please click on the link below & fill the details, we will get in touch with you <a href=\"http://bit.do/nixbees\">http://bit.do/nixbees</a></p>\n" +
         "                        </div>\n" +
         "                        <div class=\"col-md-6\">\n" +

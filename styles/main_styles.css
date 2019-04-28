@@ -315,8 +315,6 @@ section
 /*********************************
 3. Header
 *********************************/
-
-
 .header
 {
 
@@ -324,23 +322,23 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-    height: 60px;
+	height: 60px;
 	padding-right: 2%;
 	z-index: 20;
 	background: rgb(45, 45, 45);
 
-    /*-webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    /*-moz-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
-   /* box-shadow: 0px 3px 2px 0px rgba(132, 140, 136, 0.73); */
+	/*-webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	/*: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
+	/*box-shadow: 0px 3px 2px 0px rgba(132, 140, 136, 0.73);*/
 
 }
 
 .header_svg{
-    -webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
-    box-shadow: 0px 3px 0px 0px rgba(255, 92, 3, 0.7);
-    height: 62px;
-    min-width: 220px;
+	-webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
+	box-shadow: 0px 3px 0px 0px rgba(255, 92, 3, 0.7);
+	height: 62px;
+	min-width: 220px;
 }
 
 /*********************************
@@ -378,10 +376,7 @@ section
 
 /*********************************
 3.2 Main Navigation
-***********
-
-
-**********************/
+*********************************/
 
 .main_nav
 {
@@ -393,10 +388,6 @@ section
 .nav_items
 {
 	height: 100%;
-}
-
-#about_us{
-	padding: 20px;
 }
 .nav_items li
 {
@@ -423,116 +414,26 @@ section
 	padding-left: 14px;
 	padding-right: 20px;
 }
-.penel li a{
-    font-size: 12px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #a7aea3;
-	letter-spacing: 3.5px;
-	height: 100%;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding-left: 0;
-	padding-right: 0;
-}
 .nav_items li.active
 {
-	/*background: #ff5c03;*/
-    border-bottom: 3px solid #ff5c03;
+	/*background: #ff4200;*/
+	border-bottom: 3px solid #ff5c03;
 	color: #ff5c03;
 }
 .nav_items li.active a
 {
-	color: #ff5c03;
+	color: #ff4200;
 }
 .nav_items li:hover
 {
-	/*background: #ff5c03;*/
-    border-bottom: 3px solid #ff5c03;
-	color: #ff5c03;
-}
-
-
-
-
-
-.nav_items div:hover a
-{
-	color: #ff5c03;
-}
-
-
-.nav_items div
-{
-	display: inline-block;
-	padding-left: 10px;
-	height: 100%;
-}
-.nav_items div a
-{
-	font-size: 12px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #a7aea3;
-	letter-spacing: 3.5px;
-	height: 100%;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding-left: 14px;
-	padding-right: 20px;
-}
-.penel div a{
-	font-size: 12px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #a7aea3;
-	letter-spacing: 3.5px;
-	height: 100%;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding-left: 0;
-	padding-right: 0;
-}
-.nav_items div.active
-{
-	/*background: #ff5c03;*/
+	/* background: #ff4200; */
 	border-bottom: 3px solid #ff5c03;
 	color: #ff5c03;
 }
-.nav_items div.active a
+.nav_items li:hover a
 {
 	color: #ff5c03;
 }
-.nav_items div:hover
-{
-	/*background: #ff5c03;*/
-	border-bottom: 3px solid #ff5c03;
-	color: #ff5c03;
-}
-.nav_items div:hover a
-{
-	color: #ff5c03;
-}
-
-
 
 
 /*********************************
@@ -939,14 +840,17 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
-    background-size: cover;
-    background: no-repeat center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	opacity: 0.6;
+	filter: alpha(opacity=50);
 }
 .main_slider_content
 {
 	width: 50%;
 	height: 100%;
-	margin-top: 150px;
+	margin-top: 100px;
 	float: left;
 	min-height: 400px !important;
 }
