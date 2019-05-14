@@ -600,9 +600,9 @@ section
 	top: -130px;
 }
 .fs_menu_list
-{
-	display: inline-block;
-}
+ {
+	 display: inline-block;
+ }
 .fs_menu_list li
 {
 	overflow: hidden;
@@ -722,7 +722,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	opacity: 0.6;
+	opacity: 0.5;
 	filter: alpha(opacity=50);
 }
 .services_page_shapes
@@ -739,8 +739,8 @@ section
 }
 .home_content
 {
-	margin-top: 180px;
-	margin-left: 180px;
+	margin-top: 200px;
+	margin-left: 200px;
 }
 .home_content h1
 {

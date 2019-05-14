@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
         <link rel="stylesheet" type="text/css" href="styles/services_styles.css">
         <link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
+        <link rel="stylesheet" type="text/css" href="styles/dropDown.css">
 
 
 
@@ -56,7 +57,14 @@
 		<nav class="main_nav justify-self-end">
 			<ul class="nav_items">
 				<li><a href="index.html"><span>home</span></a></li>
-				<li class="active"><a href="3dprinter.html"><span>3D Printer</span></a></li>
+
+                <li class="dropdown active"><a class="dropbtn"><span>3D Printer</span>
+                    <div class="dropdown-content">
+                        <a href="3dprinter.html">3D Printer</a>
+                        <a href="stiViewer.html">STL viewer</a>
+
+                    </div>
+                </a></li>
 				<li><a href="workshop.html"><span>Workshop</span></a></li>
                 <li><a href="internship.html"><span>Internship</span></a></li>
                 <li><a href="icap.html"><span>ICAP</span></a></li>
@@ -70,6 +78,7 @@
 				<ul class="fs_menu_list">
 					<li><a href="index.html"><span><span>H</span>Home</span></a></li>
 					<li><a href="3dprinter.html"><span><span>3</span>3D Printer</span></a></li>
+                    <li><a href="stiViewer.html"><span><span>S</span>STL Viewer</span></a></li>
 					<li><a href="workshop.html"><span><span>W</span>Workshop</span></a></li>
                     <li><a href="career.html"><span><span>I</span>Internship</span></a></li>
                     <li><a href="career.html"><span><span>I</span>ICAP</span></a></li>
@@ -101,32 +110,9 @@
 
 	<!-- Menu -->
 
-	<div class="fs_menu_overlay"></div>
-	<div class="fs_menu_container">
-		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
-		<nav class="fs_menu_nav">
-			<ul class="fs_menu_list">
-				<li><a href="index.html"><span><span>H</span>Home</span></a></li>
-				<li><a href="3dprinter.html"><span><span>S</span>3D Printer</span></a></li>
-				<li><a href="workshop.html"><span><span>W</span>Workshop</span></a></li>
-				<li><a href="career.html"><span><span>C</span>career</span></a></li>
-				<li><a href="contact.html"><span><span>C</span>Contact</span></a></li>
-			</ul>
-		</nav>
-		<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
-			<ul class="fs_social">
-				<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
-				<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-			</ul>
-		</div>
-	</div>
+
 
 	<!-- Page Top -->
-
     <div class="home prlx_parent">
 
         <!-- Parallax Background -->
@@ -147,6 +133,7 @@
         </div>
 
     </div>
+
 
 
 	<!-- Home Social -->
@@ -636,290 +623,206 @@
             </div>
         </div>
     </div>
-    <!-- models -->
-    <div style="background-color: transparent;">
-
-<br>
-       <!-- <h2 style="text-align: center;color: #FFFFFF;padding-top:50px">Our Models</h2> -->
-
-
-        <!--<div class="row">
-            <div class="col-md-4">
-                <div class="row">
-                    <div class="col-md-12 bq1">
-                        <img src="images/BeeQ1.png" height="80%" width="90%" class="img-responsive" style="margin-left: 50px;">
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-md-8">
-
-                <div class="row">
-                    <div class="col-md-12 nbq1">
-                        <h3 style="color: #2E2E2E;">Nano BeeQ</h3>
-                        <p style="color: #2E2E2E;">Nano BeeQ 3D Printer Upgraded version DIY printer is a useful affordable 3D printer, for beginner and enthusiasts alike with its capable extruder and hot bed. the Nano BeeQ is able to print a variety of filaments.</p><br><br>
-                        <ul>
-                            <li><p>Build volume: 100&#x2715;100&#x2715;100mm</p></li>
-                            <li><p>Filament Diameter: 1.75mm</p></li>
-                        </ul>
-                        <!--<p><b>&#x20B9;19,999&#x2f;&#x2212;</b></p> -->
-
-                      <!--  <br>
-                        <button type="button" class="Knowmore" id="ourBtn1">Know more</button>
-
-                    </div>
-                </div>
-                <div id="ourModal1" class="ourmodal">
-
-                    <!-- Modal content -->
-                 <!--   <div class="ourmodal_content">
-                        <div class="ourmodal_header">
-                            <span class="ourclose1" id="ourclose">&times;</span>
-                            <h2 style="color: white;">Nano BeeQ</h2>
+    <!-- Our product-->
+    <div class="container">
+        <div class="col-sm-12 text-center" style="margin-top: 20px; margin-bottom: 20px;">
+            <h2>Our Product</h2>
+        </div><br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-12" style="-moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888;">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="images/nix5.png" width="100%">
                         </div>
-                        <div class="ourmodal_body">
-                            <h3>Technical Specification</h3>
-                            <p><b>Temperature</b><br>&bull; Bed Temperature&colon; NO Heat  Bed<br><b>Print Accuracy/Resolution</b><br>&bull; Printer part Accuracy&colon; Within +/- 0.2mm<br>&bull; Wall Thickness&colon; Depends on nozzle diameter<br>&bull; Printing Speed&colon; 30-80mm per sec<br>&bull; Auto bed level Height &colon; No auto bed leveling<br><b>Material</b><br>&hybull; Filament Diameter&colon; 1.75mm
-                                <br>&bull; Material Supported&colon; PLA<br><b>Software</b><br>&bull; File Types&colon; stl,obj, Gcode<br>&bull; Support&colon; XP/ Win7/ Win8/ Mac/ Lunix<br>&bull; Software for printing&colon; Cura, Simplify3D, Repetier-host<br>
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <script>
-                    // Get the modal
-                    var ourmodal1 = document.getElementById('ourModal1');
-
-                    // Get the button that opens the modal
-                    var ourbtn1 = document.getElementById("ourBtn1");
-
-                    // Get the <span> element that closes the modal
-                    var ourspan1 = document.getElementsByClassName("ourclose1")[0];
-
-                    // When the user clicks the button, open the modal
-                    ourbtn1.onclick = function() {
-                        ourmodal1.style.display = "block";
-                    }
-
-                    // When the user clicks on <span> (x), close the modal
-                    ourspan1.onclick = function() {
-                        ourmodal1.style.display = "none";
-                    }
-
-                    // When the user clicks anywhere outside of the modal, close it
-                    window.onclick = function(event) {
-                        if (event.target == ourmodal1) {
-                            ourmodal1.style.display = "none";
-                        }
-                    }
-                </script>
-
-            </div>
-
-        </div> -->
-        <div class="container">
-            <div class="col-sm-12 text-center">
-                <h2>Our Product</h2>
-            </div><br>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="col-12" style="-moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888;">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <img src="images/nix5.png" width="100%">
-                            </div>
-                            <div class="col-sm-6 text-center" style="margin-top: 30px;">
-                                <h2 style="color: #2E2E2E;">NANO BEEQ  	</h2>
-                                <p style="font-size: 18px;">India's most papular <br>High Precision Entry Level 3D Printer</p>
-                                <table width="100%">
-                                    <tr>
-                                        <td width="50%">
-                                            <center><button type="button" class="Knowmore" id="ourBtn2">Know more</button></center>
-                                        </td>
-                                        <td width="50%">
-                                            <center><button type="button" class="Knowmore" onclick="location.href='contact.html'">Request Quote</button></center>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="col-12" style="-moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; padding-bottom: 72px;">
-                        <div class="row">
-                            <div class="col-sm-6" style="margin-top: 20px;">
-                                <img src="images/Bquee1.png" width="100%">
-                            </div>
-                            <div class="col-sm-6 text-center" style="margin-top: 30px;">
-                                <h2 style="color: #2E2E2E;">BEEQ 	</h2>
-                                <p style="font-size: 18px;">India's most papular <br>High Precision Entry Level 3D Printer</p>
-                                <table width="100%">
-                                    <tr>
-                                        <td width="50%">
-                                            <center><button type="button" class="Knowmore" id="ourBtn123">Know more</button></center>
-                                        </td>
-                                        <td width="50%">
-                                            <center><button type="button" class="Knowmore" onclick="location.href='contact.html'">Request Quote</button></center>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="col-md-8">
-                    <div id="ourModal2" class="ourmodal">
-
-                        <!-- Modal content -->
-                        <div class="ourmodal_content">
-                            <div class="ourmodal_header">
-                                <span class="ourclose2" id="ourclose">&times;</span>
-                                <h2 style="color: white;">Nano BeeQ</h2>
-                            </div>
-                            <div class="ourmodal_body">
-                                <!--<h3>Technical Specification</h3> -->
-                               <!-- <p>&#x2022; <b>TECHNOLOGY</b></p> -->
-                                <table class="row">
-                                    <tr>
-                                        <th style="padding: 10px; text-align: center; margin-left: 50px;">Technical Specification</th>
-                                        <th style="padding: 10px; text-align: center; margin-left: 50px;">BEEQ</th>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">TECHNOLOGY</td>
-                                        <td style="padding-left: 60px;">FDM/FFF</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">MATERIAL USED</td>
-                                        <td style="padding-left: 60px;">PLA, ABS, NYLON</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">BUILD VOLUME</td>
-                                        <td style="padding-left: 60px;">200 mm3</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">HEATED BED</td>
-                                        <td style="padding-left: 60px;">YES</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">LAYER RESOLUTION</td>
-                                        <td style="padding-left: 60px;">60-400 um</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">FILAMENT DIAMETER</td>
-                                        <td style="padding-left: 60px;">1.75 mm</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">AUTO BED LEVEL</td>
-                                        <td style="padding-left: 60px;">YES</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">FILE TYPE</td>
-                                        <td style="padding-left: 60px;">STL,OBJ,G-CODE</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">POWER INPUT</td>
-                                        <td style="padding-left: 60px;">100-400V 50-60H</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">CONNECTIVITY</td>
-                                        <td style="padding-left: 60px;">USB, SD CARD</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="padding-left: 10px;">WARRANTY</td>
-                                        <td style="padding-left: 60px;">1  YEAR</td>
-                                    </tr>
-                                </table>
-                            </div>
-
-                        </div>
-                        <script type="text/javascript" src="js/3d_p1close.js"></script>
-                    </div>
-
-
-                <div id="ourModal3" class="ourmodal">
-
-                    <!-- Modal content -->
-                    <div class="ourmodal_content">
-                        <div class="ourmodal_header">
-                            <span class="ourclose3" id="ourclose">&times;</span>
-                            <h2 style="color: white;">BeeQ</h2>
-                        </div>
-                        <div class="ourmodal_body">
-                            <!--<h3>Technical Specification</h3> -->
-                            <!-- <p>&#x2022; <b>TECHNOLOGY</b></p> -->
-                            <table class="row">
+                        <div class="col-sm-6 text-center" style="margin-top: 30px;">
+                            <h2 style="color: #2E2E2E;">NANO BEEQ  	</h2>
+                            <p style="font-size: 15px;">India's most papular <br>High Precision Professional 3D Printer</p>
+                            <table width="100%">
                                 <tr>
-                                    <th style="padding: 10px; text-align: center; margin-left: 50px;">Technical Specification</th>
-                                    <th style="padding: 10px; text-align: center; margin-left: 50px;">BEEQ</th>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">TECHNOLOGY</td>
-                                    <td style="padding-left: 60px;">FDM/FFF</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">MATERIAL USED</td>
-                                    <td style="padding-left: 60px;">PLA</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">BUILD VOLUME</td>
-                                    <td style="padding-left: 60px;">200 mm3</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">HEATED BED</td>
-                                    <td style="padding-left: 60px;">YES</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">LAYER RESOLUTION</td>
-                                    <td style="padding-left: 60px;">60-300 um</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">FILAMENT DIAMETER</td>
-                                    <td style="padding-left: 60px;">1.75 mm</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">AUTO BED LEVEL</td>
-                                    <td style="padding-left: 60px;">NO</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">FILE TYPE</td>
-                                    <td style="padding-left: 60px;">STL,OBJ,G-CODE</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">POWER INPUT</td>
-                                    <td style="padding-left: 60px;">100-400V 50-60H</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">CONNECTIVITY</td>
-                                    <td style="padding-left: 60px;">USB, SD CARD</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-left: 10px;">WARRANTY</td>
-                                    <td style="padding-left: 60px;">1  YEAR</td>
+                                    <td width="50%">
+                                        <center><button type="button" class="Knowmore" id="ourBtn123">Know more</button></center>
+                                    </td>
+                                    <td width="50%">
+                                        <center><button type="button" class="Knowmore" onclick="location.href='contact.html'">Request Quote</button></center>
+                                    </td>
                                 </tr>
                             </table>
                         </div>
-
                     </div>
-                    <script type="text/javascript" src="js/3d_p2close.js"></script>
                 </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-12" style="-moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888;">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="images/nixbee123.png" width="100%">
+                        </div>
+                        <div class="col-sm-6 text-center" style="margin-top: 30px;">
+                            <h2 style="color: #2E2E2E;">BEEQ 	</h2>
+                            <p style="font-size: 15px;">India's most papular <br>High Precision Professional 3D Printer</p>
+                            <table width="100%">
+                                <tr>
+                                    <td width="50%">
+                                        <center><button type="button" class="Knowmore" id="ourBtn2">Know more</button></center>
+                                    </td>
+                                    <td width="50%">
+                                        <center><button type="button" class="Knowmore" onclick="location.href='contact.html'">Request Quote</button></center>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
 
                 </div>
+            </div>
+        </div>
 
 
 
+        <div class="col-md-8">
+            <div id="ourModal2" class="ourmodal">
+
+                <!-- Modal content -->
+                <div class="ourmodal_content">
+                    <div class="ourmodal_header">
+                        <span class="ourclose2" id="ourclose">&times;</span>
+                        <h2 style="color: white;">Nano BeeQ</h2>
+                    </div>
+                    <div class="ourmodal_body">
+                        <!--<h3>Technical Specification</h3> -->
+                        <!-- <p>&#x2022; <b>TECHNOLOGY</b></p> -->
+                        <table class="row">
+                            <tr>
+                                <th style="padding: 10px; text-align: center; margin-left: 50px;">Technical Specification</th>
+                                <th style="padding: 10px; text-align: center; margin-left: 50px;">BEEQ</th>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">TECHNOLOGY</td>
+                                <td style="padding-left: 60px;">FDM/FFF</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">MATERIAL USED</td>
+                                <td style="padding-left: 60px;">PLA, ABS, NYLON</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">BUILD VOLUME</td>
+                                <td style="padding-left: 60px;">200 mm3</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">HEATED BED</td>
+                                <td style="padding-left: 60px;">YES</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">LAYER RESOLUTION</td>
+                                <td style="padding-left: 60px;">60-400 um</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">FILAMENT DIAMETER</td>
+                                <td style="padding-left: 60px;">1.75 mm</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">AUTO BED LEVEL</td>
+                                <td style="padding-left: 60px;">YES</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">FILE TYPE</td>
+                                <td style="padding-left: 60px;">STL,OBJ,G-CODE</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">POWER INPUT</td>
+                                <td style="padding-left: 60px;">100-400V 50-60H</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">CONNECTIVITY</td>
+                                <td style="padding-left: 60px;">USB, SD CARD</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">WARRANTY</td>
+                                <td style="padding-left: 60px;">1  YEAR</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+                <script type="text/javascript" src="js/3d_p1close.js"></script>
+            </div>
+
+
+            <div id="ourModal3" class="ourmodal">
+
+                <!-- Modal content -->
+                <div class="ourmodal_content">
+                    <div class="ourmodal_header">
+                        <span class="ourclose3" id="ourclose">&times;</span>
+                        <h2 style="color: white;">BeeQ</h2>
+                    </div>
+                    <div class="ourmodal_body">
+                        <!--<h3>Technical Specification</h3> -->
+                        <!-- <p>&#x2022; <b>TECHNOLOGY</b></p> -->
+                        <table class="row">
+                            <tr>
+                                <th style="padding: 10px; text-align: center; margin-left: 50px;">Technical Specification</th>
+                                <th style="padding: 10px; text-align: center; margin-left: 50px;">BEEQ</th>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">TECHNOLOGY</td>
+                                <td style="padding-left: 60px;">FDM/FFF</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">MATERIAL USED</td>
+                                <td style="padding-left: 60px;">PLA</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">BUILD VOLUME</td>
+                                <td style="padding-left: 60px;">200 mm3</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">HEATED BED</td>
+                                <td style="padding-left: 60px;">YES</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">LAYER RESOLUTION</td>
+                                <td style="padding-left: 60px;">60-300 um</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">FILAMENT DIAMETER</td>
+                                <td style="padding-left: 60px;">1.75 mm</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">AUTO BED LEVEL</td>
+                                <td style="padding-left: 60px;">NO</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">FILE TYPE</td>
+                                <td style="padding-left: 60px;">STL,OBJ,G-CODE</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">POWER INPUT</td>
+                                <td style="padding-left: 60px;">100-400V 50-60H</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">CONNECTIVITY</td>
+                                <td style="padding-left: 60px;">USB, SD CARD</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 10px;">WARRANTY</td>
+                                <td style="padding-left: 60px;">1  YEAR</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+                <script type="text/javascript" src="js/3d_p2close.js"></script>
+            </div>
 
         </div>
-        </div>
-    </div> <br>
-    <!-- end models -->
+
+
+
+
+    </div>
+    <!--End of Our product-->
 
 	<!-- Pic Boxes -->
     <!-- usage of 3d printer -->
@@ -1015,7 +918,7 @@
 
 <br>
 	<!-- gallery -->
-    <div class="services_pulli">
+    <!--<div class="services_pulli">
 	<div class="container">
 		<div class="row">
 
@@ -1111,7 +1014,7 @@
 
 		</div>
 	</div>
-    </div>
+    </div>-->
 	<!-- end of gallery -->
 
 	<!-- Contact -->

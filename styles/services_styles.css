@@ -825,10 +825,11 @@ section
 
 .home
 {
-    width: 100%;
-    height: 600px;
-    margin-top: 60px;
-    background-color: rgb(45, 45, 45);
+	width: 100%;
+	height: 620px;
+	background-color: rgb(45, 45, 45);
+	margin-bottom: 100px;
+	margin-top: 60px;
 }
 .home_background
 {
@@ -840,7 +841,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	opacity: 0.6;
+	opacity: 0.5;
 	filter: alpha(opacity=50);
 }
 .services{
@@ -861,7 +862,7 @@ section
 }
 .home_content
 {
-	margin-top: 100px;
+	margin-top: 200px;
 }
 .home_content h1
 {
@@ -1237,7 +1238,7 @@ section
 	color: #2E2E2E;
 }
 .beeq{
-	text-align: center;
+	text-align: justify;
 	text-justify: inter-word;
 	/*padding-right: 50px;
 	padding-left: 50px;*/

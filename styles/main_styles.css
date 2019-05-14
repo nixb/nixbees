@@ -315,6 +315,8 @@ section
 /*********************************
 3. Header
 *********************************/
+
+
 .header
 {
 
@@ -322,23 +324,23 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 60px;
+    height: 60px;
 	padding-right: 2%;
 	z-index: 20;
 	background: rgb(45, 45, 45);
 
-	/*-webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-	/*: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
-	/*box-shadow: 0px 3px 2px 0px rgba(132, 140, 136, 0.73);*/
+    /*-webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    /*-moz-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
+   /* box-shadow: 0px 3px 2px 0px rgba(132, 140, 136, 0.73); */
 
 }
 
 .header_svg{
-	-webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-	-moz-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
-	box-shadow: 0px 3px 0px 0px rgba(255, 92, 3, 0.7);
-	height: 62px;
-	min-width: 220px;
+    -webkit-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 1px 1px 1px 1px rgb(255, 92, 3);  /* Firefox 3.5 - 3.6 */
+    box-shadow: 0px 3px 0px 0px rgba(255, 92, 3, 0.7);
+    height: 62px;
+    min-width: 220px;
 }
 
 /*********************************
@@ -376,7 +378,10 @@ section
 
 /*********************************
 3.2 Main Navigation
-*********************************/
+***********
+
+
+**********************/
 
 .main_nav
 {
@@ -434,6 +439,8 @@ section
 {
 	color: #ff5c03;
 }
+
+
 
 
 /*********************************
@@ -707,29 +714,6 @@ section
     background-color: rgba(205, 206, 203, 0.49);
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    width: 190px;
-    margin-left: -40px;
-    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    -webkit-animation: fadeInFromNone 0.5s ease-out;
-    -moz-animation: fadeInFromNone 0.5s ease-out;
-    -o-animation: fadeInFromNone 0.5s ease-out;
-    animation: fadeInFromNone 0.5s ease-out;
-}
-
 @-webkit-keyframes fadeInFromNone {
     0% {
         display: none;
@@ -843,14 +827,14 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	opacity: 0.6;
+	opacity: 0.5;
 	filter: alpha(opacity=50);
 }
 .main_slider_content
 {
 	width: 50%;
 	height: 100%;
-	margin-top: 100px;
+	margin-top: 150px;
 	float: left;
 	min-height: 400px !important;
 }
