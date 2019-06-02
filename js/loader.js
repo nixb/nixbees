@@ -143,6 +143,8 @@ window.addEventListener("load", function () {
     var input = document.getElementById("file");
     input.addEventListener("change", function (ev) {
         var file = ev.target.files[0];
+
+        console.log("gs");
         openFile(file);
     }, false);
 
