@@ -25,8 +25,6 @@ var v=[
             'https://cdn.thingiverse.com/assets/90/b9/c1/0c/fc/Toy_horse_two_halves.stl',
             'https://cdn.thingiverse.com/assets/48/b2/0c/42/a4/Toy_horse_two_halves_v2.stl'
         ],
-<<<<<<< HEAD
-=======
         [
             'https://cdn.thingiverse.com/assets/12/cd/52/8b/7c/horse.STL'
         ],
@@ -49,7 +47,6 @@ var v=[
             'https://cdn.thingiverse.com/assets/9f/e9/6c/84/97/Camel.stl'
         ]
 
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
     ],
     [
         [
@@ -70,9 +67,6 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/a4/ba/41/db/f5/DC_Capitol_Left.stl',
             'https://cdn.thingiverse.com/assets/30/33/3e/1e/e7/DC_Capitol_R.stl',
-<<<<<<< HEAD
-            'https://cdn.thingiverse.com/assets/1f/7a/e4/80/bd/DC_Captial_M.stl'],
-=======
             'https://cdn.thingiverse.com/assets/1f/7a/e4/80/bd/DC_Captial_M.stl'
         ],
         [
@@ -99,7 +93,6 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/72/44/0d/d9/d2/Cube-Mondrian_Ring.obj'
         ]
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
     ],
     [
         [
@@ -116,8 +109,6 @@ var v=[
         ],
         [
             'https://cdn.thingiverse.com/assets/12/bd/b3/6e/1b/iphone_case_V2.stl'
-<<<<<<< HEAD
-=======
         ],
         [
             'https://cdn.thingiverse.com/assets/be/3e/ed/52/15/WeeksB_HairOrnV2-Part1.stl',
@@ -143,7 +134,6 @@ var v=[
         ],
         [
             'https://cdn.thingiverse.com/assets/04/57/f5/33/09/canvas_art_holder.STL'
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
         ]
     ],
     [
@@ -165,8 +155,6 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/78/c3/b6/b5/2a/DG_Frame_1_v2_v_rebuilt.stl',
             'https://cdn.thingiverse.com/assets/22/a0/23/a4/59/DG_Frame_2_v_rebuilt.stl'
-<<<<<<< HEAD
-=======
         ],
         [
             'https://cdn.thingiverse.com/assets/df/51/62/24/65/Fashion_Bracelet_more_closure.STL'
@@ -194,7 +182,6 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/b2/db/1b/47/40/Tree_Earrings.stl',
             'https://cdn.thingiverse.com/assets/bf/17/89/8f/00/Tree_Decoration.stl'
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
         ]
     ],
     [
@@ -216,8 +203,6 @@ var v=[
         ],
         [
             'https://cdn.thingiverse.com/assets/96/c2/2e/6f/38/Apple-Pencil-Gadget.stl'
-<<<<<<< HEAD
-=======
         ],
         [
             'https://cdn.thingiverse.com/assets/5b/97/4c/34/9b/estintore-piccolo.STL'
@@ -239,7 +224,6 @@ var v=[
         ],
         [
             'https://cdn.thingiverse.com/assets/40/15/a3/51/bb/lemonbolt.stl'
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
         ]
     ],
     [
@@ -258,8 +242,6 @@ var v=[
         ],
         [
             'https://cdn.thingiverse.com/assets/c9/0e/f2/b4/aa/Ver_1.stl'
-<<<<<<< HEAD
-=======
         ],
         [
             'https://cdn.thingiverse.com/assets/43/d7/4b/00/ad/God.stl'
@@ -282,7 +264,6 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/6e/da/e4/6e/77/Giza_slide.stl',
             'https://cdn.thingiverse.com/assets/c3/2d/be/6b/f8/Giza_main.stl'
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
         ]
     ],
     [
@@ -304,8 +285,6 @@ var v=[
         ],
         [
             'https://cdn.thingiverse.com/assets/53/3a/07/cf/02/door_x.stl'
-<<<<<<< HEAD
-=======
         ],
         [
             'https://cdn.thingiverse.com/assets/55/26/a0/d5/8f/Pirate_Chest_FINAL_FINAL_STL.STL',
@@ -332,7 +311,6 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/1a/50/b4/fd/9e/spoonrider_bre.stl',
             'https://cdn.thingiverse.com/assets/43/40/6f/1a/2e/spoonrider_patrick.stl'
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
         ]
     ],
     [
@@ -359,8 +337,6 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/93/ae/20/67/4d/Head.STL',
             'https://cdn.thingiverse.com/assets/32/d5/06/78/e5/Skull.STL'
-<<<<<<< HEAD
-=======
         ],
         [
             'https://cdn.thingiverse.com/assets/9a/3b/f5/4e/7a/learning_chopsticks2.stl',
@@ -385,7 +361,6 @@ var v=[
         ],
         [
             'https://cdn.thingiverse.com/assets/90/d3/b8/bd/a4/shark.stl'
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
         ]
     ],
     [
@@ -412,14 +387,6 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/48/08/02/08/d3/KACA-ORBITAL02.STL',
             'https://cdn.thingiverse.com/assets/6a/3f/31/19/c1/KACA-ORBITAL01.STL'
-<<<<<<< HEAD
-        ]
-
-    ]
-
-
-];
-=======
         ],
         [
             'https://cdn.thingiverse.com/assets/2d/46/f1/ec/df/20_Cent_Fidget_Toy.stl',
@@ -448,7 +415,6 @@ var v=[
         ]
 
     ]
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
 
 
 ];

@@ -2,270 +2,6 @@ var val="";
 var val1="";
 var images=[
 
-<<<<<<< HEAD
-    [
-        [
-            'images/animal/tortoy/tortoy2.jpg',
-            'images/animal/tortoy/tortoy3.jpg',
-            'images/animal/tortoy/tortoy1.jpg',
-            'images/animal/tortoy/tortoy.jpg'
-        ],
-        [
-            'images/animal/squral/squaril2.jpg',
-            'images/animal/squral/squaril.jpg',
-            'images/animal/squral/squaril1.jpg'
-        ],
-        [
-            'images/animal/panther/panther2.jpg',
-            'images/animal/panther/panther.jpeg',
-            'images/animal/panther/panther1.jpeg'],
-
-        [
-            'images/animal/dog/dog1.jpg',
-            'images/animal/dog/dog2.jpg',
-            'images/animal/dog/dog3.jpg',
-            'images/animal/dog/dog.jpg'],
-
-        [
-            'images/animal/hourse/hourse1.jpg',
-            'images/animal/hourse/hourse2.jpg',
-            'images/animal/hourse/hourse.jpg']
-
-    ],
-    [
-        [
-            'images/Architecture/Architecture1/Architecture2.jpg',
-            'images/Architecture/Architecture1/Architecture.jpg',
-            'images/Architecture/Architecture1/Architecture1.jpg'
-        ],
-        [
-            'images/Architecture/Architecture2/temple2.jpg',
-            'images/Architecture/Architecture2/temple1.jpg',
-            'images/Architecture/Architecture2/temple.jpg'
-        ],
-        [
-            'images/Architecture/Architecture3/home1.jpg',
-            'images/Architecture/Architecture3/home2.jpg',
-            'images/Architecture/Architecture3/home3.jpg',
-            'images/Architecture/Architecture3/home4.jpg',
-            'images/Architecture/Architecture3/home.jpg'],
-
-        [
-            'images/Architecture/Architecture4/steps2.jpg',
-            'images/Architecture/Architecture4/steps1.jpg',
-            'images/Architecture/Architecture4/steps.jpg'],
-
-        [
-            'images/Architecture/Architecture5/mahal1.jpg',
-            'images/Architecture/Architecture5/mahal2.jpg',
-            'images/Architecture/Architecture5/mahal3.jpg',
-            'images/Architecture/Architecture5/mahal.jpg']
-
-    ],
-    [
-        [
-            'images/art/art1/bob1.jpg',
-            'images/art/art1/bob.jpg'
-        ],
-        [
-            'images/art/art2/scorpiyo1.jpg',
-            'images/art/art2/scorpiyo.jpg'
-        ],
-        [
-            'images/art/art3/glob1.jpg',
-            'images/art/art3/glob.jpg'
-        ],
-
-        [
-            'images/art/art4/feature2.jpg',
-            'images/art/art4/feature1.jpg',
-            'images/art/art4/feature.jpg'
-        ],
-
-        [
-            'images/art/art5/phone_cover1.jpg',
-            'images/art/art5/phone_cover.jpg'
-        ]
-
-    ],
-    [
-        [
-            'images/Fashion/Fashion1/dolar2.jpg',
-            'images/Fashion/Fashion1/dolar3.jpg',
-            'images/Fashion/Fashion1/dolar.jpg',
-            'images/Fashion/Fashion1/dolar1.jpg'
-        ],
-        [
-            'images/Fashion/Fashion2/tai1.jpg',
-            'images/Fashion/Fashion2/tai2.jpg',
-            'images/Fashion/Fashion2/tai.jpg'
-        ],
-        [
-            'images/Fashion/Fashion3/holder3.jpg',
-            'images/Fashion/Fashion3/holder4.jpg',
-            'images/Fashion/Fashion3/holder1.jpg',
-            'images/Fashion/Fashion3/holder2.jpg',
-            'images/Fashion/Fashion3/holder.jpg'
-        ],
-        [
-            'images/Fashion/Fashion4/fingure_ring1.jpg',
-            'images/Fashion/Fashion4/fingure_ring.jpg'
-        ],
-        [
-            'images/Fashion/Fashion5/spectacle1.jpg',
-            'images/Fashion/Fashion5/spectacle2.jpg',
-            'images/Fashion/Fashion5/spectacle.jpg'
-        ]
-    ],
-    [
-        [
-            'images/Gadget/Gadget1/bphone1.JPG',
-            'images/Gadget/Gadget1/bphone2.JPG',
-            'images/Gadget/Gadget1/bphone3.JPG',
-            'images/Gadget/Gadget1/bphone4.JPG',
-            'images/Gadget/Gadget1/bphone.JPG'
-        ],
-        [
-            'images/Gadget/Gadget2/mobi_holder3.jpg',
-            'images/Gadget/Gadget2/mobi_holder2.jpg',
-            'images/Gadget/Gadget2/mobi_holder1.jpg',
-            'images/Gadget/Gadget2/mobi_holder.jpg'
-        ],
-        [
-            'images/Gadget/Gadget3/jewell_box1.jpg',
-            'images/Gadget/Gadget3/jewell_box2.jpg',
-            'images/Gadget/Gadget3/jewell_box.jpg'
-        ],
-        [
-            'images/Gadget/Gadget4/plag_hold1.jpg',
-            'images/Gadget/Gadget4/plag_hold.jpg'
-        ],
-        [
-            'images/Gadget/Gadget5/pen_cap1.JPG',
-            'images/Gadget/Gadget5/pen_cap2.JPG',
-            'images/Gadget/Gadget5/pen_cap3.JPG',
-            'images/Gadget/Gadget5/pen_cap.JPG'
-        ]
-    ],
-    [
-        [
-            'images/god/god1/budda3.jpg',
-            'images/god/god1/budda1.jpg',
-            'images/god/god1/budda2.jpg',
-            'images/god/god1/budda.jpg'
-        ],
-        [
-            'images/god/god2/ganesha1.jpg',
-            'images/god/god2/ganesha.jpg'
-        ],
-        [
-            'images/god/god3/vishnu1.jpg',
-            'images/god/god3/vishnu.jpg'
-        ],
-        [
-            'images/god/god4/shiva1.jpg',
-            'images/god/god4/shiva2.jpg',
-            'images/god/god4/shiva.jpg'
-        ],
-        [
-            'images/god/god5/plate2.jpg',
-            'images/god/god5/plate1.jpg',
-            'images/god/god5/plate.jpg'
-        ]
-    ],
-    [
-        [
-            'images/house_holds/house_holds1/box2.JPG',
-            'images/house_holds/house_holds1/box1.JPG',
-            'images/house_holds/house_holds1/box.JPG'
-        ],
-        [
-            'images/house_holds/house_hold2/air_plant_hold1.jpg',
-            'images/house_holds/house_hold2/air_plant_hold2.jpg',
-            'images/house_holds/house_hold2/air_plant_hold3.jpg',
-            'images/house_holds/house_hold2/air_plant_hold4.jpg',
-            'images/house_holds/house_hold2/air_plant_hold.jpg'
-        ],
-        [
-            'images/house_holds/house_holds3/knife_holder3.jpg',
-            'images/house_holds/house_holds3/knife_holder4.jpg',
-            'images/house_holds/house_holds3/knife_holder.jpg',
-            'images/house_holds/house_holds3/knife_holder1.jpg',
-            'images/house_holds/house_holds3/knife_holder2.jpg'
-        ],
-        [
-            'images/house_holds/house_holds4/hand_shaver_holder2.jpg',
-            'images/house_holds/house_holds4/hand_shaver_holder.jpg',
-            'images/house_holds/house_holds4/hand_shaver_holder1.jpg'
-        ],
-        [
-            'images/house_holds/house_holds5/doorknob1.jpg',
-            'images/house_holds/house_holds5/doorknob.jpg'
-        ]
-    ],
-    [
-        [
-            'images/learning/learning1/brille_learn2.jpg',
-            'images/learning/learning1/brille_learn.jpg',
-            'images/learning/learning1/brille_learn1.jpg'
-        ],
-        [
-            'images/learning/learning2/number_game1.jpg',
-            'images/learning/learning2/number_game2.jpg',
-            'images/learning/learning2/number_game3.jpg',
-            'images/learning/learning2/number_game4.jpg',
-            'images/learning/learning2/number_game.jpg'
-        ],
-        [
-            'images/learning/learning3/scull1.JPG',
-            'images/learning/learning3/scull2.JPG',
-            'images/learning/learning3/scull3.JPG',
-            'images/learning/learning3/scull4.JPG',
-            'images/learning/learning3/scull.JPG'
-        ],
-        [
-            'images/learning/learning4/feature_game1.JPG',
-            'images/learning/learning4/feature_game2.JPG',
-            'images/learning/learning4/feature_game3.JPG',
-            'images/learning/learning4/feature_game.JPG'
-        ],
-        [
-            'images/learning/learning5/medical_skull2.jpg',
-            'images/learning/learning5/medical_skull3.jpg',
-            'images/learning/learning5/medical_skull1.jpg',
-            'images/learning/learning5/medical_skull.jpg'
-        ]
-    ],
-    [
-        [
-            'images/toys/new_poly_space_toys/toy1.jpg',
-            'images/toys/new_poly_space_toys/toy3.jpg',
-            'images/toys/new_poly_space_toys/toy17.jpg',
-            'images/toys/new_poly_space_toys/toy21.jpg'
-        ],
-        [
-            'images/toys/Alen_toy/alen6.jpg',
-            'images/toys/Alen_toy/alen7.jpg',
-            'images/toys/Alen_toy/alen5.jpg',
-            'images/toys/Alen_toy/alen8.jpg',
-            'images/toys/Alen_toy/alen9.jpg'
-        ],
-        [   'images/toys/Net_ball/net_ball3.jpg',
-            'images/toys/Net_ball/net_ball2.jpg',
-            'images/toys/Net_ball/niet_ball1.jpg'],
-
-        [   'images/toys/hourse/hourse1.jpg',
-            'images/toys/hourse/hourse2.jpg',
-            'images/toys/hourse/hourse3.jpg',
-            'images/toys/hourse/hourse4.jpg',
-            'images/toys/hourse/hourse5.jpg'],
-
-        [   'images/toys/bebebled/bebeled2.jpg',
-            'images/toys/bebebled/bebeled3.jpg',
-            'images/toys/bebebled/bebeled1.jpg',
-            'images/toys/bebebled/bebeled4.jpg']
-
-=======
     [
         [
             'images/animal/tortoy/tortoy2.jpg',
@@ -821,7 +557,6 @@ var images=[
             'images/toys/toy12/belt1.jpg'
         ]
 
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
     ]
 
 ];
@@ -846,30 +581,6 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/90/b9/c1/0c/fc/Toy_horse_two_halves.stl',
             'https://cdn.thingiverse.com/assets/48/b2/0c/42/a4/Toy_horse_two_halves_v2.stl'
-<<<<<<< HEAD
-        ]
-    ],
-    [
-        [
-            'https://cdn.thingiverse.com/assets/1f/04/80/3e/08/crisrtina2.STL',
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/c0/72/66/30/a8/Korean_Traditional_Architecture_Coin_Bank_printing.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/76/81/6d/e7/35/PAK_3__Roof_Windows.STL',
-            'https://cdn.thingiverse.com/assets/b1/e5/75/9c/8e/PAK_3__Roof_Wall_001.STL',
-            'https://cdn.thingiverse.com/assets/88/7e/62/a6/ed/PAK_3__Steps_001.STL',
-            'https://cdn.thingiverse.com/assets/8c/3c/4c/0f/e2/PAK_3_T_Columns.STL'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/7c/41/2a/0a/ce/stair.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/a4/ba/41/db/f5/DC_Capitol_Left.stl',
-            'https://cdn.thingiverse.com/assets/30/33/3e/1e/e7/DC_Capitol_R.stl',
-            'https://cdn.thingiverse.com/assets/1f/7a/e4/80/bd/DC_Captial_M.stl'
-=======
         ],
         [
             'https://cdn.thingiverse.com/assets/12/cd/52/8b/7c/horse.STL'
@@ -1111,26 +822,10 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/6e/da/e4/6e/77/Giza_slide.stl',
             'https://cdn.thingiverse.com/assets/c3/2d/be/6b/f8/Giza_main.stl'
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
         ]
     ],
     [
         [
-<<<<<<< HEAD
-            'https://cdn.thingiverse.com/assets/66/10/6c/b0/bc/Mario_Luigi_Art_-_We3dUK.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/0a/3a/66/b4/22/Scorpion_Art.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/11/df/93/a0/a5/maapallo.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/be/02/b6/7f/ba/100_percent_of_scale_178.75mm_tall_QGR_QSN_sticksballs_RWGresearch_2-17-17.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/12/bd/b3/6e/1b/iphone_case_V2.stl'
-=======
             'https://cdn.thingiverse.com/assets/5e/ce/34/b8/c8/guitar_pick_holder_v1.stl'
         ],
         [
@@ -1174,30 +869,10 @@ var v=[
         [
             'https://cdn.thingiverse.com/assets/1a/50/b4/fd/9e/spoonrider_bre.stl',
             'https://cdn.thingiverse.com/assets/43/40/6f/1a/2e/spoonrider_patrick.stl'
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
         ]
     ],
     [
         [
-<<<<<<< HEAD
-            'https://cdn.thingiverse.com/assets/f4/a3/b7/3b/74/Atom_Pendant_mm.stl',
-            'https://cdn.thingiverse.com/assets/3d/86/c1/4a/d7/Atom_Pendant_V2_mm.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/98/78/de/22/28/gancetto.stl',
-            'https://cdn.thingiverse.com/assets/6e/4a/da/63/de/bianco.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/d0/9e/c5/f1/61/Bon_Garcon_BowTie-V1.02.stl',
-            'https://cdn.thingiverse.com/assets/0e/88/f0/93/60/Bon_Garcon_BowTie.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/f3/3f/34/24/53/Star_Wars_Ring_Stormtrooper_01.stl.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/78/c3/b6/b5/2a/DG_Frame_1_v2_v_rebuilt.stl',
-            'https://cdn.thingiverse.com/assets/22/a0/23/a4/59/DG_Frame_2_v_rebuilt.stl'
-=======
             'https://cdn.thingiverse.com/assets/65/f3/de/c8/75/BrailleLearningBoardV2.STL'
         ],
         [
@@ -1244,100 +919,10 @@ var v=[
         ],
         [
             'https://cdn.thingiverse.com/assets/90/d3/b8/bd/a4/shark.stl'
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
         ]
     ],
     [
         [
-<<<<<<< HEAD
-            'https://cdn.thingiverse.com/assets/61/5b/15/2b/cd/chassis_e_scritte_argento.stl',
-            'https://cdn.thingiverse.com/assets/ef/dd/1f/71/2c/bordi_e_fili_neri.stl',
-            'https://cdn.thingiverse.com/assets/06/d6/98/5f/da/flusso_trasparente.stl',
-            'https://cdn.thingiverse.com/assets/8e/bf/aa/32/58/contatti_oro.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/0a/c0/e7/ca/16/bikemount-tiewrap-25mm.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/02/0c/ac/23/2d/box_lid.stl',
-            'https://cdn.thingiverse.com/assets/96/31/0e/8d/ee/jewel_gadget_lvl_II.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/34/a9/9b/c6/21/plug_stand_us.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/96/c2/2e/6f/38/Apple-Pencil-Gadget.stl'
-        ]
-    ],
-    [
-        [
-            'https://cdn.thingiverse.com/assets/24/e7/2d/1c/ef/LR_Model_Print_Cleaned.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/bf/dc/b1/16/47/God_Ganesha.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/7e/8b/a9/36/c5/God_Vishnu_Riding_on_His_Mount_Garuda_.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/b3/42/ab/0f/c6/Shivling_w_support.stl',
-            'https://cdn.thingiverse.com/assets/7c/31/f6/2e/ae/Shivling.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/c9/0e/f2/b4/aa/Ver_1.stl'
-        ]
-    ],
-    [
-        [
-            'https://cdn.thingiverse.com/assets/5e/ce/34/b8/c8/guitar_pick_holder_v1.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/e5/98/fa/e8/8b/Body.stl',
-            'https://cdn.thingiverse.com/assets/af/84/a8/8d/a8/Neck.stl',
-            'https://cdn.thingiverse.com/assets/16/08/c4/63/13/Head.stl',
-            'https://cdn.thingiverse.com/assets/82/7b/c2/73/f8/Left_Leg.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/df/29/86/9a/da/finalletras.stl',
-            'https://cdn.thingiverse.com/assets/2b/65/61/28/b2/final2.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/5d/fa/d6/90/76/ShowerHandleHolder.STL.STL'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/53/3a/07/cf/02/door_x.stl'
-        ]
-    ],
-    [
-        [
-            'https://cdn.thingiverse.com/assets/65/f3/de/c8/75/BrailleLearningBoardV2.STL'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/b0/2e/28/17/9e/1.STL',
-            'https://cdn.thingiverse.com/assets/20/a0/0a/84/c0/2.STL',
-            'https://cdn.thingiverse.com/assets/fb/18/66/3e/60/3.STL',
-            'https://cdn.thingiverse.com/assets/63/19/d1/49/b6/4.STL'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/d3/c4/28/77/5b/LB_raptor_hand_4_finger_set.stl',
-            'https://cdn.thingiverse.com/assets/9e/44/ac/9a/49/LB_Double_Finger_Pins.stl',
-            'https://cdn.thingiverse.com/assets/2f/d6/70/e6/ea/LB_raptor_hand_1_finger.stl',
-            'https://cdn.thingiverse.com/assets/0c/ea/1e/a9/66/LB_Example_File.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/87/02/a1/89/3b/earthquake_top_.stl',
-            'https://cdn.thingiverse.com/assets/1d/39/f8/20/ff/earthquake_bottom.stl',
-            'https://cdn.thingiverse.com/assets/f7/e4/76/e9/41/springs.stl'
-        ],
-        [
-            'https://cdn.thingiverse.com/assets/93/ae/20/67/4d/Head.STL',
-            'https://cdn.thingiverse.com/assets/32/d5/06/78/e5/Skull.STL'
-        ]
-    ],
-    [
-        [
-=======
->>>>>>> de79fa2102060bd64a7d35eb1ce787f17411a3ba
             'https://cdn.thingiverse.com/assets/58/1b/af/64/29/toy1_lowpoly_body.STL',
             'https://cdn.thingiverse.com/assets/ee/c8/af/d0/24/toy1_lowpoly_head.STL',
         ],
