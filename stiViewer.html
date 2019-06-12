@@ -29,6 +29,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>
+	
+	<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-storage.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-database.js"></script>
+	<script src="js/stlView.js"></script>
     <style>
 
         /* Remove the navbar's default margin-bottom and rounded borders */
@@ -203,17 +208,19 @@
         <div class="row">
 
             <div class="col-md-6">
-                <div class="stl">
-                    <label for="inputUpload" class="custom-file-upload">Upload your file</label>
-                    <input id="inputUpload" type="file" />
+				<div class="stl" id="stl_view">
+						<label for="inputUpload" class="custom-file-upload">Upload your file</label>
+						<input id="inputUpload" type="file" onchange="previewFile()" name="files[]"/>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="stl">
-                    <button class="btn btn1">Convert</button>
+			</div>
+			<div class="col-md-6">
+				<div class="stl" id="gcode_view" >
+					<input class="btn btn1" type="button" onclick="upload()"   value="convert"/>
                 </div>
-            </div>
-        </div>
+			</div>
+		</div>
+			
+			<script src="js/slice.js"></script>
     </div>
     <!-- end of g-code converter -->
     <!-- Footer -->
