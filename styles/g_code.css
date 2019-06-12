@@ -1,0 +1,35 @@
+.stl{
+    margin-top: 100px;
+    height: 500px;
+    background-color: cornflowerblue;
+    position: relative;
+}
+#inputUpload {
+    display: none;
+}
+
+.custom-file-upload {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: inherit;
+    color: white;
+}
+.g_code{
+    margin-bottom: 80px;
+}
+.custom-file-upload:hover {
+    text-decoration: underline;
+    color: rgb(249, 92, 7);
+}
+.btn1{
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    right: 20px;
+    background-color: rgba(45, 45, 45, 0.6);
+}
+.btn1:hover{
+    background-color: rgba(249, 92, 7, 0.6);
+}
