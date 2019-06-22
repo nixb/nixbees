@@ -296,7 +296,7 @@
 	p{font-size: 13px;}
 	.fs_menu_container.active
 	{
-		padding-top: 100px;
+		padding-top: 150px;
 	}
 	.fs_menu_list li a
 	{
@@ -344,7 +344,8 @@
 	}
 	.home_content
 	{
-		margin-top: 10px;
+		padding: 20px;
+		margin-top: 70px;
 		height: 90px;
 	}
 	.home_content h1

@@ -672,7 +672,7 @@ section
 .fs_menu_list li a span span
 {
 	position: absolute;
-	top: -1px;
+	top: 0px;
 	left: -5px;
 	color: #ff4200;
 	z-index: -1;

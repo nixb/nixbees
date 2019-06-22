@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 /* CSS Document */
 
@@ -339,7 +340,7 @@
 	p{font-size: 13px;}
 	.fs_menu_container.active
 	{
-		padding-top: 100px;
+		padding-top: 150px;
 	}
 	.fs_menu_list li a
 	{
@@ -385,8 +386,9 @@
 	.main_slider_content
 	{
 		position: absolute;
+		padding: 30px;
 		top: 300px;
-		left: -5px;
+		left: 0px;
 		height: auto;
 		-webkit-transform: translateY(-50%);
 		-moz-transform: translateY(-50%);

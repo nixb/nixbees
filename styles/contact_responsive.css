@@ -272,7 +272,7 @@
 	p{font-size: 13px;}
 	.fs_menu_container.active
 	{
-		padding-top: 100px;
+		padding-top: 150px;
 	}
 	.fs_menu_list li a
 	{
@@ -317,10 +317,12 @@
 	.home_content
 	{
 		float: left;
+		margin-left: 60px;
+		margin-top: 75px;
 	}
 	.home_content h1
 	{
-		margin-bottom: 0px;
+		margin-top: 0px;
 	}
 	.home_content span
 	{
