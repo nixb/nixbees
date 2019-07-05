@@ -1794,7 +1794,7 @@ font-family: Helvetica, sans-serif;
 	content: '';
 	position: absolute;
 	width: 6px;
-	height: 1810px;
+	height: 2160px;
 	background-color: #ff530d;
 	top: 1%;
 	bottom: 0;
@@ -1883,7 +1883,7 @@ font-family: Helvetica, sans-serif;
 	/* Place the timelime to the left */
 	.timeline::after {
 		left: 31px;
-		height: 1820px;
+		height: 2140px;
 	}
 
 	/* Full-width containers */
