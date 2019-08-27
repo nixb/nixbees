@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ICAP</title>
+
+    <!-- Font Awesome Icons -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS - Includes Bootstrap -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/material.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="editormd/css/editormd.css" />
+    <link rel="shortcut icon" href="img/nixbees.png" type="image/x-icon" />
+    
+   
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-database.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-auth.js"></script>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html">ICAP <span style="font-size: 10px">powered by <b style="color: darkorange">nixbees</b></span></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#materials">MaterialsList</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+         <li class="nav-item" style="background-color:#bdbdbd; border-radius:20px;">
+            <a class="nav-link js-scroll-trigger" id="login" onclick="goToLogin()" style="padding-right:15px; cursor: pointer;">Login</a>
+            <a class="nav-link js-scroll-trigger" id="logout" style="display:none; cursor:pointer; padding-right:15px;" onclick="logout()">Logout</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white" id="materials" >
+    <div class="" id="cards">
+          
+    </div>
+
+    <!-- Propeller card (CSS for helping component example file)-->
+    <link href="http://propeller.in/components/card/css/card.css" type="text/css" rel="stylesheet">
+    
+    <!-- Example docs (CSS for helping component example file)-->
+    <link href="http://propeller.in/docs/css/example-docs.css" type="text/css" rel="stylesheet">
+    
+    <!-- Propeller typography -->
+    <link href="http://propeller.in/components/typography/css/typography.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Icon Font -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link href="../components/icons/css/google-icons.css" type="text/css" rel="stylesheet" /> -->
+    
+    <!-- Propeller Button -->
+    <link href="http://propeller.in/components/button/css/button.css" type="text/css" rel="stylesheet">
+    
+    <!-- Propeller Accordion -->
+    <link href="http://propeller.in/components/floating-action-button/css/floating-action-button.css" type="text/css" rel="stylesheet"> 
+
+    <div class="menu pmd-floating-action" id="addnew" style="display:none"  role="navigation"> 
+        <!-- <a href="javascript:void(0);" class="pmd-floating-action-btn btn btn-sm pmd-btn-fab pmd-btn-raised pmd-ripple-effect btn-default" data-title="Supervisor Account"> 
+          <span class="pmd-floating-hidden">Supervisor Account</span>
+          <i class="material-icons">supervisor_account</i>
+        </a> 
+        <a href="javascript:void(0);" class="pmd-floating-action-btn btn btn-sm pmd-btn-fab pmd-btn-raised pmd-ripple-effect btn-default" data-title="Cloud Queue"> 
+          <span class="pmd-floating-hidden">Cloud Queue</span> 
+          <i class="material-icons">cloud_queue</i> 
+        </a> 
+        <a href="javascript:void(0);" class="pmd-floating-action-btn btn btn-sm pmd-btn-fab pmd-btn-raised pmd-ripple-effect btn-default" data-title="Headset"> 
+          <span class="pmd-floating-hidden">Headset</span> 
+          <i class="material-icons">headset</i>
+        </a> 
+        <a href="javascript:void(0);" class="pmd-floating-action-btn btn btn-sm pmd-btn-fab pmd-btn-raised pmd-ripple-effect btn-default" data-title="Dialpad"> 
+          <span class="pmd-floating-hidden">Dialpad</span> 
+          <i class="material-icons">dialpad</i> 
+        </a>  -->
+        <a onclick="loadEdit(null)" class="pmd-floating-action-btn btn pmd-btn-fab pmd-btn-raised pmd-ripple-effect btn-danger" data-title="New" href="javascript:void(0);"> 
+          <span class="pmd-floating-hidden">Primary</span>
+          <i class="material-icons pmd-sm">add</i> 
+        </a> 
+      </div>
+      
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+      // Initialize Firebase
+      var config = {
+          apiKey: "AIzaSyCmYozRWVui54uGFASeajE0vuYVJKOAFuQ",
+          authDomain: "icap-cf3e0.firebaseapp.com",
+          databaseURL: "https://icap-cf3e0.firebaseio.com",
+          projectId: "icap-cf3e0",
+          storageBucket: "mini-project-7992c.appspot.com",
+          messagingSenderId: "219641519828"
+      };
+
+      function goToLogin()
+      {
+        localStorage.setItem("previousUrl", "materialList.html");
+        location.replace("login.html");
+      }
+
+      firebase.initializeApp(config);
+      database = firebase.database();
+      firebase.auth().onAuthStateChanged(function(user) {
+          if (user) {
+              loadData(user.uid);
+              console.log(user.uid);
+              enableAddNew(user.uid);
+              document.getElementById("login").style.display = "none";
+              document.getElementById("logout").style.display = "block";
+          } else {
+              loadData("null");
+              document.getElementById("login").style.display = "block";
+              document.getElementById("logout").style.display = "none";
+          }
+      });
+
+      function enableAddNew( uid )
+      {
+        database.ref("admin/"+uid).once("value").then(function(snapshot1) {
+          if(snapshot1.exists())
+            document.getElementById("addnew").style.display = "block";
+          else
+            document.getElementById("addnew").style.display = "none";
+        });
+      }
+      function logout()
+      {
+        flag = 0;
+        firebase.auth().signOut().then(function() {
+          window.open("index.html","_self");
+          alert("Logged out successfully!");
+        }, function(error) {
+          alert("Unable to logout, try aggain later...");
+        });
+      }
+      
+      function loadReadme(path)
+      {
+          localStorage.setItem("sessionPath", path);
+          window.open("view_materials.html", "_self");
+      }
+      
+      function loadEdit(path)
+      {
+          localStorage.setItem("sessionEdit", path);
+          window.open("editMaterials.html", "_self");
+      }
+        
+      function loadData( uid )
+      {
+        database.ref("admin/"+uid).once("value").then(function(snapshot1) {
+          console.log(snapshot1.exists());
+          database.ref('/icap/sessions/SSIT/').on('value', function(snapshot) {
+            console.log(snapshot.val());
+            var ref = snapshot.val();
+            var str = "<div class=\"row justify-content-center \">";
+            
+            for(let session in ref)
+            {
+              str = str + "<div class=\"card border-secondary mb-3 col-sm-4\" style=\"max-width: 18rem;margin: 10px; cursor:pointer\">"+
+                  "<div class=\"card-header\" style=\"color: white; background-color:darkorange; margin-left:-15px; margin-right:-15px\">"+ref[session]["session_name"]+"</div>"+
+                  "<div class=\"card-body text-secondary\">"+
+                    // "<h5 class=\"card-title\">Secondary card title</h5>"+
+                    "<p class=\"card-text\" style=\"text-align: justify;\">"+ref[session]["desc"]+"</p><br><br>"+
+                  "</div><div class=\"text-right\">";
+                  if(snapshot1.exists())
+                    str = str + "<button class=\"btn pmd-btn-flat pmd-ripple-effect btn-danger\" style=\"margin: 2px;\"  onclick=\"loadEdit('"+ ref[session]['college'] + '/' + ref[session]['session_name'] +"')\">Edit</button>";
+                  if(uid !== "null")  
+                    str = str+ "<button class=\"btn pmd-btn-flat pmd-ripple-effect btn-danger\" style=\"margin: 2px;\" onclick=\"loadReadme('"+ ref[session]['college'] + '/' + ref[session]['session_name'] +"')\">Open</button>";
+                    str = str + "</div>"+
+                "</div>";
+            }
+            str+="</div>";
+            document.getElementById("cards").innerHTML = str;
+
+          });
+        });
+      }
+
+    </script>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Let's Get In Touch!</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <div>+91 95912-57205</div>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <a class="d-block" style="color: darkorange" href="mailto:contact@yourwebsite.com">hello@nixbees.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light">
+    <div class="container">
+      <div class="small text-center text-muted">Copyright &copy; 2019 - Nixbees</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>

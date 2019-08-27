@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="css/login.css" rel="stylesheet">
+        <link rel="shortcut icon" href="img/nixbees.png" type="image/x-icon" />
+        <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+    
+        <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-app.js"></script>
+    
+        <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-database.js"></script>
+    
+        <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-auth.js"></script>
+
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyCmYozRWVui54uGFASeajE0vuYVJKOAFuQ",
+                authDomain: "icap-cf3e0.firebaseapp.com",
+                databaseURL: "https://icap-cf3e0.firebaseio.com",
+                projectId: "icap-cf3e0",
+                storageBucket: "mini-project-7992c.appspot.com",
+                messagingSenderId: "219641519828"
+            };
+            firebase.initializeApp(config);
+            database = firebase.database();
+            auth = firebase.auth();
+            firebase.auth().onAuthStateChanged(function(user) {
+                if (user) {
+                    if(localStorage.getItem("previousUrl") !== "null")
+                        location.replace(localStorage.getItem("previousUrl"));
+                    else
+                        localStorage.getItem("index.html");
+        
+                } else {
+                    // User is signed out.
+                    // ...
+                }
+            });
+            function login() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+                console.log(username);
+                console.log(password);
+                if(username==="" || password==="")
+                {
+                    alert("inavalid username or password");
+                    return;
+                }
+                firebase.auth().signInWithEmailAndPassword(username, password).catch(function(error) {
+                    // Handle Errors here.
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+        
+                    console.log(errorCode);
+                    console.log(errorMessage);
+                });
+            }
+            </script>
+    </head>
+
+    <body>
+        <div id="login">
+            <div class="container">
+                <div id="login-row" class="row justify-content-center align-items-center">
+                    <div id="login-column" class="col-md-6">
+                        <div id="login-box" class="col-md-12">
+                            <form id="login-form" class="form" action="" method="post">
+                                <h3 class="text-center text-info">Login</h3>
+                                <div class="form-group">
+                                    <label for="username" class="text-info">Username:</label><br>
+                                    <input type="text" name="username" id="username" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="text-info">Password:</label><br>
+                                    <input type="password" name="password" id="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input style="float: right" type="button" onclick="login()" class="btn btn-info btn-md" value="Login">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
